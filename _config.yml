@@ -91,7 +91,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Citrix (Cloud Software Group)
+        title: Cloud Software Group
         link: cloud.com
         # link_text: boringcompany.com
         sub_title: Security Engineer
@@ -125,7 +125,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Escuela Técnica Superior de Ingeniería (Universidad de Sevilla)
+        title: Universidad de Sevilla
         caption: 2015 - 2019
         sub_title: Master's Degree in Telecommunications Engineering
         #quote: >
@@ -135,7 +135,7 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
       - layout: left
-        title: Escuela Técnica Superior de Ingeniería (Universidad de Sevilla)
+        title: Universidad de Sevilla
         caption: 2011 - 2015
         sub_title: Degree in Telecommunications Engineering Technology
         #quote: >
