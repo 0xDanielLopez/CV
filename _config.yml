@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Daniel López, and I am a <mark>Security Engineer</mark> with over <mark>6 years of experience</mark> working in Security Operations Centers (SOC). Throughout these years, I have been involved in the analysis, containment and remediation of threats for international and strategic clients across multiple sectors.
 
-  Also, in my spare time, I enjoy programming, building projects, and researching threats (which I often share on my Twitter account). I have a particular fondness for programming in Python/Bash and exploring technologies such as AWS or playing with APIs. These diverse interests enable me to stay up-to-date with the latest advancements in the field and continuously expand my skill set.
+  Also, in my spare time, I enjoy programming, building projects, and researching threats (which I often share on my Twitter account). I have a particular fondness for programming in <mark>Python & Bash</mark> and exploring technologies such as <mark>AWS</mark> or playing with <mark>APIs</mark>. These diverse interests enable me to stay up-to-date with the latest advancements in the field and continuously expand my skill set.
 
 content:
   - title: Projects # Title for the section
