@@ -153,6 +153,7 @@ content:
   - title: At News / Media
     layout: text
     content: | # - xxx [[xxx](xxx)]
+      - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds)]
       - Telenotícies migdia - 12/04/2023 [[Spanish midday newscast ~32.15](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
       - Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online' [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/)]
       - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
@@ -162,7 +163,7 @@ content:
       - Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
       - Suplantan la identidad de tenistas como Rafa Nadal para incentivar la descarga de vídeos con malware [[20minutos.es](https://www.20minutos.es/tecnologia/ciberseguridad/suplantan-la-identidad-de-tenistas-como-rafa-nadal-para-incentivar-la-descarga-de-videos-con-malware-5031428/)]
       - Así pueden estafarte con la declaración de la Renta [[elcorreo.com](https://www.elcorreo.com/tecnologia/renta-2023-asi-ueden-estafarte-al-hacerse-pasar-por-la-agencia-tributaria-20230413150321-nt.html)]
-      - El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html)]      
+      - El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html)]
 
   - title: A Little More About Me
     layout: text
