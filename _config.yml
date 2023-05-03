@@ -48,7 +48,7 @@ linkedin_username: 0xDanielLopez
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Daniel López, and I am a <mark>Security Engineer</mark> with over <mark>6 years of experience</mark> working in <mark>Security Operations Centers</mark> (SOC). Throughout these years, I have been involved in the analysis, containment and remediation of threats for international and strategic clients across multiple sectors.
+  Hello, my name is Daniel López, and I am a <mark>Security Engineer</mark> with over <mark>6 years of experience</mark> working in <mark>Security Operations Centers</mark> (SOC). Throughout these years, I have been involved in the analysis, containment and remediation of threats for multiple international clients across diverse sectors.
 
   Also, in my spare time, I enjoy <mark>coding</mark>, <mark>building projects</mark>, and <mark>researching threats</mark> (which I often share on my Twitter account [@0xDanielLopez](https://twitter.com/0xDanielLopez)). I have a particular fondness for programming in <mark>Python & Bash</mark> and exploring technologies such as <mark>AWS</mark> or playing with <mark>APIs</mark>. These diverse interests enable me to stay up-to-date with the latest advancements in the field and continuously expand my skill set.
 
