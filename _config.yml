@@ -99,7 +99,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating all types of cyber threats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
+            As a Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating <mark>all types of cyber threats</mark> (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
       - layout: left
         title: Banco Santander
         link: bancosantander.es
@@ -109,7 +109,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Cybersecurity Analyst at the SOC of Banco Santander-Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers. In this role I worked primarily with <mark>Splunk</mark> as SIEM, <mark>Falcon CrowdStrike</mark> as EDR solution and IBM Resilient as SOAR.
+            As a Cybersecurity Analyst at the SOC of Banco Santander -Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers. In this role I worked primarily with <mark>Splunk</mark> as SIEM, <mark>Falcon CrowdStrike</mark> as EDR solution and IBM Resilient as SOAR.
       - layout: left
         title: Deloitte
         link: deloitte.com
