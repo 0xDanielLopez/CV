@@ -133,7 +133,7 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my Master's Degree in Telecommunications Engineering at the Universidad de Sevilla, I gained a deep understanding of the principles and practices of <mark>modern telecommunications networks and systems</mark>. Throughout my studies, I was exposed to a wide range of topics including <mark>network architectures</mark>, <mark>signal processing</mark>, <mark>wireless communications</mark>, and <mark>network security</mark>.
+          During my Master's Degree in Telecommunications Engineering at University of Seville, I gained a deep understanding of the principles and practices of <mark>modern telecommunications networks and systems</mark>. Throughout my studies, I was exposed to a wide range of topics including <mark>network architectures</mark>, <mark>signal processing</mark>, <mark>wireless communications</mark>, and <mark>network security</mark>.
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
@@ -141,7 +141,7 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          I completed my Bachelor's Degree in Telecommunications Engineering Technology at the Universidad de Sevilla, where I gained a comprehensive understanding of the fundamental principles and practices of <mark>telecommunications engineering</mark> as well as developed my <mark>computer science</mark> and <mark>programming skills</mark>.
+          I completed my Bachelor's Degree in Telecommunications Engineering at University of Seville, where I gained a comprehensive understanding of the fundamental principles and practices of <mark>telecommunications engineering</mark> as well as developed my <mark>computer science</mark> and <mark>programming skills</mark>.
 
   - title: Certifications and Courses
     layout: text
