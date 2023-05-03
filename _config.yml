@@ -48,7 +48,7 @@ linkedin_username: 0xDanielLopez
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Daniel López, and I am a <mark>Security Engineer</mark> with over <mark>6 years of experience</mark> working in Security Operations Centers (SOC). Throughout these years, I have been involved in the analysis, containment and remediation of threats for international and strategic clients across multiple sectors.
+  Hello, my name is Daniel López, and I am a <mark>Security Engineer</mark> with over <mark>6 years of experience</mark> working in <mark>Security Operations Centers</mark> (SOC). Throughout these years, I have been involved in the analysis, containment and remediation of threats for international and strategic clients across multiple sectors.
 
   Also, in my spare time, I enjoy programming, building projects, and researching threats (which I often share on my Twitter account). I have a particular fondness for programming in <mark>Python & Bash</mark> and exploring technologies such as <mark>AWS</mark> or playing with <mark>APIs</mark>. These diverse interests enable me to stay up-to-date with the latest advancements in the field and continuously expand my skill set.
 
@@ -70,7 +70,7 @@ content:
         quote: >
           Free feed of active phishing cases
         description: | # this will include new lines to allow paragraphs
-          Project to find, analyze and monitor phishing sites.
+          Website designed to identify and monitor possible active phishing cases. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider OR certificate) and serve them in a Free Feed. This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
       - layout: top-middle
         title: TweetFeed
         link: tweetfeed.live
@@ -85,7 +85,7 @@ content:
         quote: >
           TweetFeed provides free feeds with Indicators Of Compromise (IOCs) shared at Twitter
         description: | # this will include new lines to allow paragraphs
-          TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter.
+          TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter. TweetFeed is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,7 +99,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Working as a Security Engineer for Citrix -Cloud Software Group- multinational cloud computing and virtualization technology company.
+            As a Security Engineer at the SOC of Cloud Software Group - multinational cloud computing and virtualization technology company (former Citrix), I am responsible for analyzing, containing, and remediating all types of cyber threats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
       - layout: left
         title: Banco Santander
         link: bancosantander.es
@@ -109,7 +109,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Worked at Spain's largest bank SOC managing all types of cybersecurity alerts.
+            As a Cybersecurity Analyst at the SOC of Banco Santander-Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers. In this role I worked primarily with <mark>Splunk</mark> as SIEM, <mark>Falcon CrowdStrike</mark> as EDR solution and IBM Resilient as SOAR.
       - layout: left
         title: Deloitte
         link: deloitte.com
@@ -119,7 +119,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Worked at one of the largest professional services network on detecting and investigating all kind of cyberthreats.
+            As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple customers: data loss prevention (DLP), Managed Security Service Provider (MSSP), and various Security Information and Event Management (SIEM) tools such as Splunk and QRADAR.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -131,19 +131,15 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I completed my Master's Degree in Telecommunications Engineering at the Universidad de Sevilla, where I gained a deep understanding of the principles and practices of modern telecommunications networks and systems. During my studies, I was exposed to a wide range of topics including network architectures, signal processing, wireless communications, and network security.
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
-        sub_title: Degree in Telecommunications Engineering Technology
+        sub_title: Bachelor's Degree in Telecommunications Engineering Technology
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I completed my Bachelor's Degree in Telecommunications Engineering Technology at the Universidad de Sevilla, where I gained a comprehensive understanding of the fundamental principles and practices of telecommunications engineering as well as developed my programming skills.
 
   - title: A Little More About Me
     layout: text
