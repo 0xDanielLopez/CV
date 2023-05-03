@@ -141,17 +141,29 @@ content:
         description: | # this will include new lines to allow paragraphs
           I completed my Bachelor's Degree in Telecommunications Engineering Technology at the Universidad de Sevilla, where I gained a comprehensive understanding of the fundamental principles and practices of <mark>telecommunications engineering</mark> as well as developed my <mark>computer science</mark> and <mark>programming skills</mark>.
 
-  - title: A Little More About Me
+  - title: Certifications and Courses
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - GIAC Security Essentials (GSEC) / SANS SEC401 [[link](https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1)]
+      - Security Engineering on AWS [[link](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=OB3d3Fgom0a6uA1HoOTUXg2)]
+      - Architecting on AWS – Accelerator [[link](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=XZWgjfzfeE6XFZx6_lR8kg2)]
+      - ITIL Foundation [[link](https://bit.ly/2AHfQsI)]
+      - Scrum Foundation Professional Certificate [[link](https://www.youracclaim.com/badges/64714c5d-07c1-4f27-84a5-e8cfcf3247c7)]
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: At News / Media
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por sms [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
+      - Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots [[mundodeportivo.com](https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots)]
+      - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[ciberpro.es](https://ciberpro.es/estan-suplantando-la-web-de-correos-con-kits-vendidos-en-telegram-que-usan-sus-bots-para-recopilar-contrasenas-y-hay-muchos-kits-asi/)]
+      - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi)]
+
+    - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5)
+      - Enjoy riding my bike and going to the gym (helps me a lot avoiding burnout).
+      - In free cycles also love playing videogames (mostly League of Legends or CounterStrike)
 
 # Footer
 footer_show_references: false
