@@ -153,6 +153,7 @@ content:
   - title: At News / Media
     layout: text
     content: | # this will include new lines to allow paragraphs
+      - Telenotícies migdia - 12/04/2023 [[Spanish midday newscast ~32.15](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
       - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por sms [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
       - Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots [[mundodeportivo.com](https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots)]
       - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[ciberpro.es](https://ciberpro.es/estan-suplantando-la-web-de-correos-con-kits-vendidos-en-telegram-que-usan-sus-bots-para-recopilar-contrasenas-y-hay-muchos-kits-asi/)]
