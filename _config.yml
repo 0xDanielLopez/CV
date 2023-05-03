@@ -161,6 +161,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
+      - Memmber of [CuratedIntel](https://twitter.com/CuratedIntel) trust group 
       - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5)
       - Enjoy riding my bike and going to the gym (helps me a lot avoiding burnout).
       - In free cycles also love playing videogames (mostly League of Legends or CounterStrike)
