@@ -135,7 +135,7 @@ content:
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
-        sub_title: Bachelor's Degree in Telecommunications Engineering Technology
+        sub_title: Bachelor's Degree in Telecommunications Engineering
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
