@@ -83,7 +83,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          TweetFeed provides free feeds with Indicators Of Compromise (IOCs) shared at Twitter
+          Free freed of Indicators Of Compromise (IOCs) shared at Twitter
         description: | # this will include new lines to allow paragraphs
           TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter. TweetFeed is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
@@ -154,7 +154,7 @@ content:
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
