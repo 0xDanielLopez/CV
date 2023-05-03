@@ -60,10 +60,10 @@ content:
         title: phishunt
         link: phishunt.io
         # link_text: Project Website
-        additional_links:
-          - title:  phishunt.io
-            icon: fa-solid fa-fish
-            url: phishunt.io
+        #additional_links:
+        #  - title:  phishunt.io
+        #    icon: fa-solid fa-fish
+        #    url: phishunt.io
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -75,10 +75,10 @@ content:
         title: TweetFeed
         link: tweetfeed.live
         # link_text: Project Website
-        additional_links:
-          - title:  tweetfeed.live
-            icon: fa-solid fa-shield
-            url: tweetfeed.live
+        #additional_links:
+        #  - title:  tweetfeed.live
+        #    icon: fa-solid fa-shield
+        #    url: tweetfeed.live
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -99,7 +99,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Security Engineer at the SOC of Cloud Software Group - multinational cloud computing and virtualization technology company (former Citrix), I am responsible for analyzing, containing, and remediating all types of cyber threats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
+            As a Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating all types of cyber threats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
       - layout: left
         title: Banco Santander
         link: bancosantander.es
@@ -119,7 +119,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple customers: data loss prevention (DLP), Managed Security Service Provider (MSSP), and various Security Information and Event Management (SIEM) tools such as Splunk and QRADAR.
+            As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple customers: <mark>Data Loss Prevention</mark> (DLP), Managed Security Service Provider (MSSP), and various Security Information and Event Management (SIEM) tools such as <mark>Splunk</mark> and <mark>QRADAR</mark>.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
