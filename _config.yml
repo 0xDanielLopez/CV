@@ -126,6 +126,8 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple customers: <mark>Data Loss Prevention</mark> (DLP), Managed Security Service Provider (MSSP), and various Security Information and Event Management (SIEM) tools such as <mark>Splunk</mark> and <mark>QRADAR</mark>.
+            &nbsp
+            &nbsp
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
