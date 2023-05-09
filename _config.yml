@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Also, in my spare time, I enjoy <mark>coding</mark>, <mark>building projects</mark>, and <mark>researching threats</mark> (which I often share on my Twitter account [@0xDanielLopez](https://twitter.com/0xDanielLopez)). I have a particular fondness for programming in <mark>Python & Bash</mark> and exploring technologies such as <mark>AWS</mark> or playing with <mark>APIs</mark>.
 
-  These diverse interests enable me to stay up-to-date with the latest advancements in the field and to be continually learning.
+  These diverse interests enable me to stay up-to-date with the latest advancements in the field and to be continually learning...
 
 content:
   - title: Projects # Title for the section
