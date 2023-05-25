@@ -74,7 +74,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
 
-          TweetFeed is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
+          This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
       - layout: top-middle
         title: phishunt
