@@ -161,8 +161,8 @@ content:
   - title: At News / Media
     layout: text
     content: | # - xxx [[xxx](xxx)]
-      - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds)]
-      - Telenotícies migdia - 12/04/2023 [[Spanish midday newscast ~32.15](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
+      - Telenotícies migdia - 12/04/2023 [[TV3 - midday TV news (~32.15)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
+      - Telenotícies migdia - 02/06/2023 [[TV3 - midday TV news (~27:48)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-02062023/video/6224081/)]
       - Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online' [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/)]
       - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
       - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi)]
@@ -176,6 +176,7 @@ content:
       - Los timos con criptomonedas que usan imágenes de famosos continúan muy activos [[ESET Blog](https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/)]
       - How does a modded crypto wallet steal credentials of an user? [[medium.com](https://medium.com/@themalwarebug/how-does-a-modded-crypto-wallet-steal-credentials-of-an-user-29aaefc3f76e)]
       - Aplicación maliciosa para Android se hace pasar por una versión de la cartera de criptomonedas MetaMask [[ESET Blog](https://blogs.protegerse.com/2023/05/23/aplicacion-maliciosa-para-android-se-hace-pasar-por-una-version-de-la-cartera-de-criptomonedas-metamask/)]
+      - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds)]
 
   - title: A Little More About Me
     layout: text
