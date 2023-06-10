@@ -153,6 +153,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       - GIAC Security Essentials (GSEC) / SANS SEC401 [[badge](https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1)]
       - MITRE ATT&CK Defender™ Fundamentals Badge Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-56c26349-5548-4619-a38c-0df53b14d9e2/view)]
+      - MITRE ATT&CK Defender™ Cyber Threat Intelligence Certification Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view)]
       - Security Engineering on AWS [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=OB3d3Fgom0a6uA1HoOTUXg2)]
       - Architecting on AWS – Accelerator [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=XZWgjfzfeE6XFZx6_lR8kg2)]
       - ITIL Foundation [[badge](https://bit.ly/2AHfQsI)]
