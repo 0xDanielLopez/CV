@@ -77,8 +77,8 @@ content:
           This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
       - layout: top-middle
-        title: TweetFeed (halted due to recent API changes on 𝕏 / Twitter)
-        link: tweetfeed.live
+        title: TweetFeed
+        link: tweetfeed.live (halted due to recent API changes on 𝕏 / Twitter)
         # link_text: Project Website
         #additional_links:
         #  - title:  tweetfeed.live
