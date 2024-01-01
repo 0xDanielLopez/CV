@@ -59,24 +59,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: TweetFeed (halted)
-        link: tweetfeed.live
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  tweetfeed.live
-        #    icon: fa-solid fa-shield
-        #    url: tweetfeed.live
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Free freed of Indicators Of Compromise (IOCs) shared at Twitter
-        description: | # this will include new lines to allow paragraphs
-          TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
-
-          This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
-
-      - layout: top-middle
         title: phishunt
         link: phishunt.io
         # link_text: Project Website
@@ -93,6 +75,24 @@ content:
           Website designed to identify and monitor possible active phishing cases. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
 
           This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
+
+      - layout: top-middle
+        title: TweetFeed (halted due to recent API changes on 𝕏 / Twitter)
+        link: tweetfeed.live
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  tweetfeed.live
+        #    icon: fa-solid fa-shield
+        #    url: tweetfeed.live
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Free freed of Indicators Of Compromise (IOCs) shared at Twitter
+        description: | # this will include new lines to allow paragraphs
+          TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
+
+          This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.      
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
