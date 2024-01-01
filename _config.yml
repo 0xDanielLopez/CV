@@ -88,7 +88,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Free freed of Indicators Of Compromise (IOCs) shared at Twitter
+          Free feed of Indicators Of Compromise (IOCs) shared at Twitter
         description: | # this will include new lines to allow paragraphs
           TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
 
