@@ -59,7 +59,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: TweetFeed
+        title: TweetFeed (halted)
         link: tweetfeed.live
         # link_text: Project Website
         #additional_links:
