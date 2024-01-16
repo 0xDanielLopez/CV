@@ -59,24 +59,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: phishunt
-        link: phishunt.io
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  phishunt.io
-        #    icon: fa-solid fa-fish
-        #    url: phishunt.io
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Free feed of active phishing cases
-        description: | # this will include new lines to allow paragraphs
-          Website designed to identify and monitor possible active phishing cases. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
-
-          This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
-
-      - layout: top-middle
         title: TweetFeed
         link: tweetfeed.live
         # link_text: Project Website
@@ -94,7 +76,23 @@ content:
 
           This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
-          *Halted due to recent API changes on 𝕏 / Twitter
+      - layout: top-middle
+        title: phishunt
+        link: phishunt.io
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  phishunt.io
+        #    icon: fa-solid fa-fish
+        #    url: phishunt.io
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Free feed of active phishing cases
+        description: | # this will include new lines to allow paragraphs
+          Website designed to identify and monitor possible active phishing cases. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
+
+          This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
