@@ -106,7 +106,10 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating <mark>all types of cyber threats</mark> (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...). In this role, I work primarily with <mark>Splunk</mark> as Security Information and Event Management (SIEM) tool, <mark>Microsoft Defender for Endpoint</mark> (MDE) as Endpoint Detection and Response (EDR) tool, and <mark>XSOAR</mark> as Security Orchestration, Automation and Response (SOAR) tool. I am also a member of the <mark>Cyber Threat Intelligence</mark> (CTI) team, where I research new kinds of threats and Tactics, Techniques and Procedures (TTPs), and stay up-to-date with emerging cyber threats.
+            As a Sr. Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating <mark>all types of cyber threats</mark> (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...).
+
+            AWS / Azure (Cloud) • Microsoft Defender for Endpoint (EDR) • Falcon CrowdStrike (EDR) • Splunk (SIEM) • Cortex XSOAR (SOAR)
+
       - layout: left
         title: Banco Santander
         link: bancosantander.es
@@ -138,7 +141,7 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my Master's Degree in Telecommunications Engineering at University of Seville, I gained a deep understanding of the principles and practices of <mark>modern telecommunications networks and systems</mark>. Throughout my studies, I was exposed to a wide range of topics including <mark>network architectures</mark>, <mark>signal processing</mark>, <mark>wireless communications</mark>, and <mark>network security</mark>.
+          During my Master's Degree in Telecommunications Engineering at University of Seville, I gained a deep understanding of the principles and practices of <mark>modern telecommunications networks and systems</mark>. Throughout my studies, I was exposed to a wide range of topics including <mark>network architectures</mark>, <mark>signal processing</mark>, <mark>wireless communications</mark> and <mark>network security</mark>.
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
