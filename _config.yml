@@ -108,6 +108,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a Sr. Security Engineer at the SOC of Cloud Software Group -multinational cloud computing and virtualization technology company (former Citrix)- I am responsible for analyzing, containing, and remediating <mark>all types of cyber threats</mark> (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention...).
 
+
+            Technology used in this role:
             <mark>AWS / Azure</mark> (Cloud) • <mark>Microsoft Defender for Endpoint</mark> (EDR) • <mark>Falcon CrowdStrike</mark> (EDR) • <mark>Splunk</mark> (SIEM) • <mark>Cortex XSOAR</mark> (SOAR)
 
       - layout: left
