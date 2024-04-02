@@ -111,7 +111,7 @@ content:
 
             Technology used in this role:
 
-            <mark>AWS / Azure</mark> (Cloud) • <mark>Microsoft Defender for Endpoint</mark> (EDR) • <mark>Falcon CrowdStrike</mark> (EDR) • <mark>Splunk</mark> (SIEM) • <mark>Cortex XSOAR</mark> (SOAR)
+            <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint (EDR)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
 
       - layout: left
         title: Banco Santander
@@ -122,7 +122,12 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Cybersecurity Analyst at the SOC of Banco Santander -Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers. In this role I worked primarily with <mark>Splunk</mark> as SIEM, <mark>Falcon CrowdStrike</mark> as EDR solution and IBM Resilient as SOAR.
+            As a Cybersecurity Analyst at the SOC of Banco Santander -Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers.
+
+
+            Technology used in this role:
+
+            <mark>AWS (Cloud)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM QRadar (SOAR)</mark> • <mark>Cisco Ironport (Proxy)</mark> • <mark>McAfee (IPS)</mark>
       - layout: left
         title: Deloitte
         link: deloitte.com
@@ -132,7 +137,12 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple customers: <mark>Data Loss Prevention</mark> (DLP), Managed Security Service Provider (MSSP), and various Security Information and Event Management (SIEM) tools such as <mark>Splunk</mark> or <mark>QRADAR</mark>.
+            As a Security Analyst at Deloitte's CyberSOC -largest professional services network- I analyzed and monitored all types of security alerts in real-time for multiple international customers.
+
+
+            Technology used in this role:
+
+            <mark>Splunk (SIEM)</mark> • <mark>QRadar (SIEM)</mark> • <mark>ArcSight (SIEM)</mark> • <mark>FireEye (IPS)</mark> • <mark>McAfee (ePO)</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
