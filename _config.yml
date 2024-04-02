@@ -110,6 +110,7 @@ content:
 
 
             Technology used in this role:
+            
             <mark>AWS / Azure</mark> (Cloud) • <mark>Microsoft Defender for Endpoint</mark> (EDR) • <mark>Falcon CrowdStrike</mark> (EDR) • <mark>Splunk</mark> (SIEM) • <mark>Cortex XSOAR</mark> (SOAR)
 
       - layout: left
