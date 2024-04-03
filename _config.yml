@@ -131,8 +131,8 @@ content:
 
             Key Responsibilities:
 
-            - Perform monitoring, in-depth investigation and mitigation of security incidents
-            - Monitor website's traffic and critical bank SWIFT assets. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks. IOCs research and apply containment measures
+            - Perform <mark>monitoring, in-depth investigation and mitigation</mark> of security incidents
+            - Monitor website's traffic and <mark>critical bank SWIFT assets</mark>. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks. IOCs research and apply containment measures
             - <mark>Fraud prevention</mark>: manage phishings targeting employees, suspicious emails received by VIP directors, compromised credit cards, mule accounts, stolen corporate devices, data leaks, fake profiles in social media, repositories or apps in unofficial markets
 
             Technologies used in this role:
@@ -151,9 +151,9 @@ content:
 
             Key Responsibilities:
 
-            - Conduct initial analysis of alerts from SIEM tools to identify potential security threats
-            - Follow procedures and playbooks applying immediate containment and remediation measures to threats as needed
-            - Escalate potential incidents to other teams with context and detailed data for further investigation
+            - Conduct <mark>initial analysis</mark> of alerts from SIEM tools to identify potential security threats
+            - <mark>Follow playbooks and procedures</mark> applying immediate containment and remediation measures to threats as needed
+            - <mark>Escalate potential incidents</mark> to other teams with context and detailed data for further investigation
 
             Technologies used in this role:
 
