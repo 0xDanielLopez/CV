@@ -72,7 +72,7 @@ content:
         quote: >
           Free feed of Indicators Of Compromise (IOCs) shared at Twitter
         description: | # this will include new lines to allow paragraphs
-          TweetFeed collects Indicators of Compromise (IOCs) shared by the infosec community at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
+          TweetFeed collects <mark>Indicators of Compromise (IOCs) shared by the infosec community</mark> at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
 
           This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
 
@@ -90,7 +90,7 @@ content:
         quote: >
           Free feed of active phishing cases
         description: | # this will include new lines to allow paragraphs
-          Website designed to identify and monitor possible active phishing cases. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
+          Website designed to identify and monitor possible <mark>active phishing cases</mark>. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
 
           This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
       
@@ -106,7 +106,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I am part of the <mark>Security Operations Center of Cloud Software Group</mark> (former Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
+            I am part of the Security Operations Center of Cloud Software Group (former Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
 
             Key Responsibilities:
 
@@ -127,7 +127,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Internal employee working at Global SOC Santander bank team providing 24/7 service and on-call rotation to all entities worldwide.
+            Internal employee working at Banco Santander's Global SOC team providing 24/7 service and on-call rotation to all entities worldwide.
 
             Key Responsibilities:
 
