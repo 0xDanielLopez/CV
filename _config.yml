@@ -106,14 +106,13 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I am part of the Security Operations Center of Cloud Software Group (former Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
+            I am part of the <mark>Security Operations Center of Cloud Software Group</mark> (former Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
 
             Key Responsibilities:
 
-            - Analyzing, containing and remediating all types of cyber threats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention…)
-            - Threat hunting and researching of new malware/phishing campaigns, actors and vulnerabilities to asses the impact in the infrastructure
-            - On-demand analysis of IOCs and Phishing emails providing specific mitigation and recommendation steps based on the investigation
-            - Support SIEM Engineers to fine tune alerts reducing volumetry, improving performance and detection rate
+            - <mark>Analyzing, containing and remediating</mark> all types of cyberthreats (malware infections, mail campaigns, Fraud/Abuse cases, Data Loss Prevention…)
+            - <mark>Threat hunting</mark> and <mark>researching new malware/phishing campaigns</mark> providing specific mitigation and recommendation steps based on the investigation
+            - <mark>Support SIEM Engineers</mark> to fine tune alerts reducing volumetry, improving performance and detection rate
 
             Technologies used in this role:
 
