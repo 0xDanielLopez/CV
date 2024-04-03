@@ -129,6 +129,11 @@ content:
         description: | # this will include new lines to allow paragraphs
             As a Cybersecurity Analyst at the SOC of Banco Santander -Spain's largest bank- I was responsible for managing all types of cybersecurity alerts and performing in-depth studies under direct request of customers.
 
+             Key Responsibilities:
+
+            - Perform monitoring, in-depth investigation and mitigation of security incidents
+            - Monitor website's traffic and critical bank SWIFT assets. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks. IOCs research and apply containment measures
+            - Fraud prevention: manage phishings targeting employees, suspicious emails received by VIP directors, compromised credit cards, mule accounts, stolen corporate devices, data leaks, fake profiles in social media, repositories or apps in unofficial markets
 
             Technologies used in this role:
 
