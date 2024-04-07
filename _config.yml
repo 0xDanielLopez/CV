@@ -106,7 +106,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I am part of the Security Operations Center of Cloud Software Group (former Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
+            I am part of the Security Operations Center of Cloud Software Group (formerly Citrix). Our mission is to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
 
             Key Responsibilities:
 
@@ -116,7 +116,7 @@ content:
 
             Technologies used in this role:
 
-            <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint (EDR)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
+            <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint / Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
 
       - layout: left
         title: Banco Santander
@@ -127,12 +127,12 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Internal employee working at Banco Santander's Global SOC team providing 24/7 service and on-call rotation to all entities worldwide.
+            Internal employee working at Banco Santander's Global SOC team providing 24/7 service and on-call rotation to all bank's entities worldwide.
 
             Key Responsibilities:
 
             - Perform <mark>monitoring, in-depth investigation and mitigation</mark> of security incidents
-            - Monitor website's traffic and <mark>critical bank SWIFT assets</mark>. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks. IOCs research and apply containment measures
+            - Monitor website's traffic and <mark>critical bank SWIFT assets</mark>. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks
             - <mark>Fraud prevention</mark>: manage phishings targeting employees, suspicious emails received by VIP directors, compromised credit cards, mule accounts, stolen corporate devices, data leaks, fake profiles in social media, repositories or apps in unofficial markets
 
             Technologies used in this role:
@@ -147,7 +147,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-           Security Analyst at Deloitte's CyberSOC serving as Managed Security Service Provider (MSSP) for several national and international critical customers.
+           Security Analyst at Deloitte's CyberSOC serving as Managed Security Service Provider (MSSP) for several national and international customers.
 
             Key Responsibilities:
 
