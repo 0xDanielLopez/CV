@@ -93,10 +93,11 @@ content:
           Website designed to identify and monitor possible <mark>active phishing cases</mark>. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
 
           This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
-
+      
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
       - layout: left
         title: Okta
         link: okta.com
@@ -106,10 +107,8 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-      
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+            I am part of the Identity Threat Research Team at Okta.
+
       - layout: left
         title: Cloud Software Group
         link: cloud.com
