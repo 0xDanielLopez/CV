@@ -93,6 +93,19 @@ content:
           Website designed to identify and monitor possible <mark>active phishing cases</mark>. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
 
           This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Okta
+        link: okta.com
+        # link_text: boringcompany.com
+        sub_title: Cyber Threat Researcher
+        caption: Jun. 2024 - Present
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,11 +115,11 @@ content:
         link: cloud.com
         # link_text: boringcompany.com
         sub_title: Sr. Security Engineer
-        caption: Oct. 2020 - Present
+        caption: Oct. 2020 - Jun. 2024
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I am part of the Security Operations Center of Cloud Software Group (formerly Citrix). Our mission is to protect the company from external and internal cyberthreats improving our security posture on a 24/7 service.
+            Worked at the Security Operations Center of Cloud Software Group. Our mission was to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
 
             Key Responsibilities:
 
