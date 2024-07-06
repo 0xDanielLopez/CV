@@ -107,7 +107,7 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I just joined the Identity Threat Research Team at Okta. To be updated :)
+            I just joined the Identity Threat Research Team at Okta. To be updated.
 
       - layout: left
         title: Cloud Software Group
