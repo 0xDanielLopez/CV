@@ -4,6 +4,7 @@ favicon: images/favicon.ico
 url: https://cv.daniel.tools
 baseurl: ""
 lang: en
+locale: en_US
 
 # Content configuration version
 version: 2
@@ -19,17 +20,16 @@ description: Curriculum vitae of Daniel López, cyber threat researcher focused 
 darkmode: false
 
 # Social links
-twitter_username: 0xDanielLopez
+# twitter_username: 0xDanielLopez  # theme hardcodes twitter.com; X link is in additional_links below
 github_username:  0xDanielLopez
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: 0xDanielLopez
 twitter:
   username: 0xDanielLopez
   card: summary
+author:
+  name: Daniel López
+  url: https://daniel.tools/
+  twitter: 0xDanielLopez
 social:
   name: Daniel López
   links:
@@ -37,29 +37,18 @@ social:
     - https://x.com/0xDanielLopez
     - https://www.linkedin.com/in/0xDanielLopez
     - https://daniel.tools/
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+  - title: X
+    icon: fab fa-twitter
+    url: https://x.com/0xDanielLopez
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, incident response, threat hunting and security operations. Since 2017, I have helped international organizations investigate, contain and remediate threats across diverse environments.
@@ -73,32 +62,16 @@ content:
       - layout: top-middle
         title: TweetFeed
         link: tweetfeed.live
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  tweetfeed.live
-        #    icon: fa-solid fa-shield
-        #    url: tweetfeed.live
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           An open feed of indicators shared by the security community
         description: | # this will include new lines to allow paragraphs
-          TweetFeed collects and organizes <mark>indicators of compromise shared by the security community</mark> on X. It focuses on URLs, domains, IP addresses and file hashes, making continuously shared intelligence easier to consume.
+          TweetFeed collects and organizes <mark>indicators of compromise</mark> posted on X. It focuses on URLs, domains, IP addresses and file hashes, and publishes them as an open feed.
 
           Built with <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
 
       - layout: top-middle
         title: phishunt
         link: phishunt.io
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  phishunt.io
-        #    icon: fa-solid fa-fish
-        #    url: phishunt.io
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Suspicious phishing sites, captured and enriched
         description: | # this will include new lines to allow paragraphs
@@ -113,22 +86,16 @@ content:
       - layout: left
         title: Okta
         link: okta.com
-        # link_text: boringcompany.com
         sub_title: Cyber Threat Researcher
         caption: Jun. 2024 - Present
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Part of Okta's <mark>Identity Threat Research</mark> team, researching identity-focused threats and attacker tactics, techniques and procedures.
 
       - layout: left
         title: Cloud Software Group
         link: cloud.com
-        # link_text: boringcompany.com
         sub_title: Sr. Security Engineer
         caption: Oct. 2020 - Jun. 2024
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Worked in Cloud Software Group's global Security Operations Center, protecting the organization and strengthening its security posture through a 24/7 service.
 
@@ -145,11 +112,8 @@ content:
       - layout: left
         title: Banco Santander
         link: bancosantander.es
-        # link_text: boringcompany.com
         sub_title: Global SOC Security Analyst
         caption: Aug. 2018 - Oct. 2020
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Worked in Banco Santander's Global SOC, providing 24/7 monitoring and an on-call service to the bank's entities worldwide.
 
@@ -165,13 +129,10 @@ content:
       - layout: left
         title: Deloitte
         link: deloitte.com
-        # link_text: boringcompany.com
         sub_title: CyberSOC Security Analyst
         caption: Aug. 2017 - Aug. 2018
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Security Analyst in Deloitte's CyberSOC, delivering managed security services for national and international clients.
+            Worked in Deloitte's CyberSOC, delivering managed security services for national and international clients.
 
             Key Responsibilities:
 
@@ -190,62 +151,56 @@ content:
         title: Universidad de Sevilla
         caption: 2015 - 2019
         sub_title: Master's Degree in Telecommunications Engineering
-        #quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Advanced study of <mark>telecommunications networks and systems</mark>, including network architecture, signal processing, wireless communications and network security.
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
         sub_title: Bachelor's Degree in Telecommunications Engineering
-        #quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Foundations in telecommunications engineering, computer science and <mark>software development</mark>.
 
   - title: Certifications and Courses
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - GIAC Security Essentials (GSEC) / SANS SEC401 [[badge](https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1)]
-      - MITRE ATT&CK Defender™ - Fundamentals Badge Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-56c26349-5548-4619-a38c-0df53b14d9e2/view)]
-      - MITRE ATT&CK Defender™ - Cyber Threat Intelligence Certification Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view)]
-      - MITRE ATT&CK Defender™ - SOC Assessments Certification Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view)]
-      - Security Engineering on AWS [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=OB3d3Fgom0a6uA1HoOTUXg2)]
-      - Architecting on AWS - Accelerator [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=XZWgjfzfeE6XFZx6_lR8kg2)]
-      - ITIL Foundation [[badge](https://bit.ly/2AHfQsI)]
-      - Scrum Foundation Professional Certificate [[badge](https://www.youracclaim.com/badges/64714c5d-07c1-4f27-84a5-e8cfcf3247c7)]
+      - GIAC Security Essentials (GSEC) / SANS SEC401 [<a href="https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1" aria-label="GIAC Security Essentials (GSEC) badge" target="_blank" rel="noopener">badge</a>]
+      - MITRE ATT&CK Defender™ - Fundamentals Badge Training [<a href="https://app.cybrary.it/courses/api/certificate/CC-56c26349-5548-4619-a38c-0df53b14d9e2/view" aria-label="MITRE ATT&amp;CK Defender Fundamentals badge" target="_blank" rel="noopener">badge</a>]
+      - MITRE ATT&CK Defender™ - Cyber Threat Intelligence Certification Training [<a href="https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view" aria-label="MITRE ATT&amp;CK Defender Cyber Threat Intelligence badge" target="_blank" rel="noopener">badge</a>]
+      - MITRE ATT&CK Defender™ - SOC Assessments Certification Training [<a href="https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view" aria-label="MITRE ATT&amp;CK Defender SOC Assessments badge" target="_blank" rel="noopener">badge</a>]
+      - Security Engineering on AWS
+      - Architecting on AWS - Accelerator
+      - ITIL Foundation [<a href="https://bit.ly/2AHfQsI" aria-label="ITIL Foundation badge" target="_blank" rel="noopener">badge</a>]
 
-  - title: At News / Media
+  - title: In the News
     layout: text
     content: | # - xxx [[xxx](xxx)]
-      - Telenotícies migdia - 12/04/2023 [[TV3 - midday TV news (~32.15)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
-      - Telenotícies migdia - 02/06/2023 [[TV3 - midday TV news (~27:48)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-02062023/video/6224081/)]
-      - Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online' [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/)]
-      - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
-      - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi)]
-      - Así pueden estafarte con la declaración de la Renta [[elcorreo.com](https://www.elcorreo.com/tecnologia/renta-2023-asi-ueden-estafarte-al-hacerse-pasar-por-la-agencia-tributaria-20230413150321-nt.html)]
-      - Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots [[mundodeportivo.com](https://web.archive.org/web/20250114104704/https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots)]
-      - phishunt.io, cazando phishings [[derechodelared.com](https://derechodelared.com/phishunt-io-cazando-phishings/)]
-      - Suplantan la identidad de tenistas como Rafa Nadal para incentivar la descarga de vídeos con malware [[20minutos.es](https://www.20minutos.es/tecnologia/ciberseguridad/suplantan-la-identidad-de-tenistas-como-rafa-nadal-para-incentivar-la-descarga-de-videos-con-malware-5031428/)]
-      - El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html)]      
-      - Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza [[ESET blog](https://web.archive.org/web/20210303191721/https://blogs.protegerse.com/2021/03/03/continuan-los-sms-con-falsos-envios-de-fedex-como-identificarlos-y-eliminar-esta-amenaza/)]
-      - FedexBanker: El nuevo troyano bancario para Android que utiliza tus paquetes para robarte las credenciales [[hispasec.com](https://web.archive.org/web/20230209084737/https://unaaldia.hispasec.com/2021/03/fedexbanker-el-nuevo-troyano-bancario-para-android.html)]
-      - Los timos con criptomonedas que usan imágenes de famosos continúan muy activos [[ESET Blog](https://web.archive.org/web/20240621203432/https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/)]
-      - How does a modded crypto wallet steal credentials of an user? [[@themalwarebug - medium.com](https://medium.com/@themalwarebug/how-does-a-modded-crypto-wallet-steal-credentials-of-an-user-29aaefc3f76e)]
-      - Aplicación maliciosa para Android se hace pasar por una versión de la cartera de criptomonedas MetaMask [[ESET Blog](https://web.archive.org/web/20240621193106/https://blogs.protegerse.com/2023/05/23/aplicacion-maliciosa-para-android-se-hace-pasar-por-una-version-de-la-cartera-de-criptomonedas-metamask/)]
-      - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds)]
+      - <span lang="ca">Telenotícies migdia</span> - 12/04/2023 [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
+      - <span lang="ca">Telenotícies migdia</span> - 02/06/2023 [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
+      - <span lang="es">Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online'</span> [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/){:target="_blank" rel="noopener"}]
+      - <span lang="es">Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS</span> [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/){:target="_blank" rel="noopener"}]
+      - <span lang="es">Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así</span> [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi){:target="_blank" rel="noopener"}]
+      - <span lang="es">Así pueden estafarte con la declaración de la Renta</span> [[elcorreo.com](https://www.elcorreo.com/tecnologia/renta-2023-asi-ueden-estafarte-al-hacerse-pasar-por-la-agencia-tributaria-20230413150321-nt.html){:target="_blank" rel="noopener"}]
+      - <span lang="es">Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots</span> [[mundodeportivo.com](https://web.archive.org/web/20250114104704/https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots){:target="_blank" rel="noopener"}]
+      - phishunt.io, <span lang="es">cazando phishings</span> [[derechodelared.com](https://derechodelared.com/phishunt-io-cazando-phishings/){:target="_blank" rel="noopener"}]
+      - <span lang="es">Suplantan la identidad de tenistas como Rafa Nadal para incentivar la descarga de vídeos con malware</span> [[20minutos.es](https://www.20minutos.es/tecnologia/ciberseguridad/suplantan-la-identidad-de-tenistas-como-rafa-nadal-para-incentivar-la-descarga-de-videos-con-malware-5031428/){:target="_blank" rel="noopener"}]
+      - <span lang="es">El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon</span> [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html){:target="_blank" rel="noopener"}]      
+      - <span lang="es">Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza</span> [[ESET blog](https://web.archive.org/web/20210303191721/https://blogs.protegerse.com/2021/03/03/continuan-los-sms-con-falsos-envios-de-fedex-como-identificarlos-y-eliminar-esta-amenaza/){:target="_blank" rel="noopener"}]
+      - <span lang="es">FedexBanker: El nuevo troyano bancario para Android que utiliza tus paquetes para robarte las credenciales</span> [[hispasec.com](https://web.archive.org/web/20230209084737/https://unaaldia.hispasec.com/2021/03/fedexbanker-el-nuevo-troyano-bancario-para-android.html){:target="_blank" rel="noopener"}]
+      - <span lang="es">Los timos con criptomonedas que usan imágenes de famosos continúan muy activos</span> [[ESET blog](https://web.archive.org/web/20240621203432/https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/){:target="_blank" rel="noopener"}]
+      - How does a modded crypto wallet steal credentials of an user? [[@themalwarebug - medium.com](https://medium.com/@themalwarebug/how-does-a-modded-crypto-wallet-steal-credentials-of-an-user-29aaefc3f76e){:target="_blank" rel="noopener"}]
+      - <span lang="es">Aplicación maliciosa para Android se hace pasar por una versión de la cartera de criptomonedas MetaMask</span> [[ESET blog](https://web.archive.org/web/20240621193106/https://blogs.protegerse.com/2023/05/23/aplicacion-maliciosa-para-android-se-hace-pasar-por-una-version-de-la-cartera-de-criptomonedas-metamask/){:target="_blank" rel="noopener"}]
+      - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds){:target="_blank" rel="noopener"}]
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Member of [CuratedIntel](https://twitter.com/CuratedIntel) Trust Group
+      - Member of [CuratedIntel](https://x.com/CuratedIntel){:target="_blank" rel="noopener"} Trust Group
       - Enjoy riding my bike or going to the gym (helps me a lot avoiding burnout)
       - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5)
 
 
 # Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
 
 # Build settings
 
@@ -262,3 +217,6 @@ plugins:
 # Publish dotfile directories (security.txt)
 include:
   - .well-known
+
+exclude:
+  - README.md
