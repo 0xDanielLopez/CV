@@ -13,6 +13,7 @@ name: Daniel López
 title: Cyber Threat Researcher
 email: daniel.lopez.cv@gmail.com
 website: daniel.tools
+description: Curriculum vitae of Daniel López, cyber threat researcher focused on identity threats, incident response and open security tooling.
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -26,6 +27,16 @@ github_username:  0xDanielLopez
 # flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: 0xDanielLopez
+twitter:
+  username: 0xDanielLopez
+  card: summary
+social:
+  name: Daniel López
+  links:
+    - https://github.com/0xDanielLopez
+    - https://x.com/0xDanielLopez
+    - https://www.linkedin.com/in/0xDanielLopez
+    - https://daniel.tools/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -61,7 +72,7 @@ content:
     content:
       - layout: top-middle
         title: TweetFeed
-        link: https://tweetfeed.live/
+        link: tweetfeed.live
         # link_text: Project Website
         #additional_links:
         #  - title:  tweetfeed.live
@@ -79,7 +90,7 @@ content:
 
       - layout: top-middle
         title: phishunt
-        link: https://phishunt.io/
+        link: phishunt.io
         # link_text: Project Website
         #additional_links:
         #  - title:  phishunt.io
@@ -89,9 +100,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Active phishing infrastructure, captured and enriched
+          Suspicious phishing sites, captured and enriched
         description: | # this will include new lines to allow paragraphs
-          phishunt identifies and monitors <mark>active phishing infrastructure</mark>. It captures suspicious sites, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
+          phishunt identifies and monitors <mark>suspicious phishing sites</mark>. It captures suspicious sites, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
 
           Built with <mark>Django</mark>, <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
       
@@ -101,7 +112,7 @@ content:
 
       - layout: left
         title: Okta
-        link: https://www.okta.com/
+        link: okta.com
         # link_text: boringcompany.com
         sub_title: Cyber Threat Researcher
         caption: Jun. 2024 - Present
@@ -112,7 +123,7 @@ content:
 
       - layout: left
         title: Cloud Software Group
-        link: https://www.cloud.com/
+        link: cloud.com
         # link_text: boringcompany.com
         sub_title: Sr. Security Engineer
         caption: Oct. 2020 - Jun. 2024
@@ -133,7 +144,7 @@ content:
 
       - layout: left
         title: Banco Santander
-        link: https://www.bancosantander.es/
+        link: bancosantander.es
         # link_text: boringcompany.com
         sub_title: Global SOC Security Analyst
         caption: Aug. 2018 - Oct. 2020
@@ -153,7 +164,7 @@ content:
             <mark>AWS (Cloud)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM QRadar (SOAR)</mark> • <mark>Cisco Ironport (Proxy)</mark> • <mark>McAfee (IPS)</mark>
       - layout: left
         title: Deloitte
-        link: https://www.deloitte.com/
+        link: deloitte.com
         # link_text: boringcompany.com
         sub_title: CyberSOC Security Analyst
         caption: Aug. 2017 - Aug. 2018
@@ -200,7 +211,7 @@ content:
       - MITRE ATT&CK Defender™ - Cyber Threat Intelligence Certification Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view)]
       - MITRE ATT&CK Defender™ - SOC Assessments Certification Training [[badge](https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view)]
       - Security Engineering on AWS [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=OB3d3Fgom0a6uA1HoOTUXg2)]
-      - Architecting on AWS – Accelerator [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=XZWgjfzfeE6XFZx6_lR8kg2)]
+      - Architecting on AWS - Accelerator [[badge](https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=XZWgjfzfeE6XFZx6_lR8kg2)]
       - ITIL Foundation [[badge](https://bit.ly/2AHfQsI)]
       - Scrum Foundation Professional Certificate [[badge](https://www.youracclaim.com/badges/64714c5d-07c1-4f27-84a5-e8cfcf3247c7)]
 
@@ -210,18 +221,18 @@ content:
       - Telenotícies migdia - 12/04/2023 [[TV3 - midday TV news (~32.15)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-12042023/video/6214413/)]
       - Telenotícies migdia - 02/06/2023 [[TV3 - midday TV news (~27:48)](https://www.ccma.cat/tv3/alacarta/telenoticies/telenoticies-migdia-02062023/video/6224081/)]
       - Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online' [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/)]
-      - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
+      - Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
       - Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi)]
       - Así pueden estafarte con la declaración de la Renta [[elcorreo.com](https://www.elcorreo.com/tecnologia/renta-2023-asi-ueden-estafarte-al-hacerse-pasar-por-la-agencia-tributaria-20230413150321-nt.html)]
-      - Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots [[mundodeportivo.com](https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots)]
+      - Telegram abre paso a la venta de kits para suplantar webs como la de Correos a través de bots [[mundodeportivo.com](https://web.archive.org/web/20250114104704/https://www.mundodeportivo.com/urbantecno/seguridad/telegram-abre-paso-a-la-venta-de-kits-para-suplantar-webs-como-la-de-correos-a-traves-de-bots)]
       - phishunt.io, cazando phishings [[derechodelared.com](https://derechodelared.com/phishunt-io-cazando-phishings/)]
       - Suplantan la identidad de tenistas como Rafa Nadal para incentivar la descarga de vídeos con malware [[20minutos.es](https://www.20minutos.es/tecnologia/ciberseguridad/suplantan-la-identidad-de-tenistas-como-rafa-nadal-para-incentivar-la-descarga-de-videos-con-malware-5031428/)]
       - El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html)]      
-      - Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza [[ESET blog](https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/)]
-      - FedexBanker: El nuevo troyano bancario para Android que utiliza tus paquetes para robarte las credenciales [[hispasec.com](https://unaaldia.hispasec.com/2021/03/fedexbanker-el-nuevo-troyano-bancario-para-android.html)]
-      - Los timos con criptomonedas que usan imágenes de famosos continúan muy activos [[ESET Blog](https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/)]
+      - Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza [[ESET blog](https://web.archive.org/web/20210303191721/https://blogs.protegerse.com/2021/03/03/continuan-los-sms-con-falsos-envios-de-fedex-como-identificarlos-y-eliminar-esta-amenaza/)]
+      - FedexBanker: El nuevo troyano bancario para Android que utiliza tus paquetes para robarte las credenciales [[hispasec.com](https://web.archive.org/web/20230209084737/https://unaaldia.hispasec.com/2021/03/fedexbanker-el-nuevo-troyano-bancario-para-android.html)]
+      - Los timos con criptomonedas que usan imágenes de famosos continúan muy activos [[ESET Blog](https://web.archive.org/web/20240621203432/https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/)]
       - How does a modded crypto wallet steal credentials of an user? [[@themalwarebug - medium.com](https://medium.com/@themalwarebug/how-does-a-modded-crypto-wallet-steal-credentials-of-an-user-29aaefc3f76e)]
-      - Aplicación maliciosa para Android se hace pasar por una versión de la cartera de criptomonedas MetaMask [[ESET Blog](https://blogs.protegerse.com/2023/05/23/aplicacion-maliciosa-para-android-se-hace-pasar-por-una-version-de-la-cartera-de-criptomonedas-metamask/)]
+      - Aplicación maliciosa para Android se hace pasar por una versión de la cartera de criptomonedas MetaMask [[ESET Blog](https://web.archive.org/web/20240621193106/https://blogs.protegerse.com/2023/05/23/aplicacion-maliciosa-para-android-se-hace-pasar-por-una-version-de-la-cartera-de-criptomonedas-metamask/)]
       - Best Cyber Threat Intelligence Feeds [[silentpush.com](https://www.silentpush.com/blog/best-cyber-threat-intelligence-feeds)]
 
   - title: A Little More About Me
@@ -238,9 +249,12 @@ footer_show_references: false
 
 # Build settings
 
+remote_theme: sproogen/modern-resume-theme
+
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
