@@ -1,6 +1,9 @@
 # Site
 repository: 0xDanielLopez/CV
 favicon: images/favicon.ico
+url: https://cv.daniel.tools
+baseurl: ""
+lang: en
 
 # Content configuration version
 version: 2
@@ -48,11 +51,9 @@ linkedin_username: 0xDanielLopez
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Daniel López, and I am a <mark>Cyber Threat Researcher</mark> with over <mark>7 years of experience</mark> working in <mark>Cybersecurity</mark>. Throughout these years, I have been involved in the analysis, containment and remediation of threats for multiple international clients across diverse sectors as well as the research of TTPs in the field.
+  I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, incident response, threat hunting and security operations. Since 2017, I have helped international organizations investigate, contain and remediate threats across diverse environments.
 
-  I enjoy <mark>coding</mark>, <mark>building projects</mark>, and <mark>researching threats</mark> and I have a particular fondness for coding in <mark>Python & Bash</mark> and exploring technologies such as <mark>AWS</mark> or playing with <mark>APIs</mark>.
-
-  These diverse interests enable me to stay up-to-date with the latest advancements in the field and to be continually learning.
+  I also build <mark>open security tools</mark>. I enjoy turning noisy data into practical intelligence with <mark>Python</mark>, <mark>Bash</mark>, cloud services and APIs.
 
 content:
   - title: Projects # Title for the section
@@ -60,7 +61,7 @@ content:
     content:
       - layout: top-middle
         title: TweetFeed
-        link: tweetfeed.live
+        link: https://tweetfeed.live/
         # link_text: Project Website
         #additional_links:
         #  - title:  tweetfeed.live
@@ -70,15 +71,15 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Free feed of Indicators Of Compromise (IOCs) shared at Twitter
+          An open feed of indicators shared by the security community
         description: | # this will include new lines to allow paragraphs
-          TweetFeed collects <mark>Indicators of Compromise (IOCs) shared by the infosec community</mark> at Twitter. Focused on URLs, domains, IPs and SHA256/MD5 hashes, TweetFeed serves a Free Feed with these data that are constantly shared by researchers at Twitter.
+          TweetFeed collects and organizes <mark>indicators of compromise shared by the security community</mark> on X. It focuses on URLs, domains, IP addresses and file hashes, making continuously shared intelligence easier to consume.
 
-          This is a website built mainly with <mark>Bootstrap</mark> / <mark>JavaScript</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
+          Built with <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
 
       - layout: top-middle
         title: phishunt
-        link: phishunt.io
+        link: https://phishunt.io/
         # link_text: Project Website
         #additional_links:
         #  - title:  phishunt.io
@@ -88,11 +89,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Free feed of active phishing cases
+          Active phishing infrastructure, captured and enriched
         description: | # this will include new lines to allow paragraphs
-          Website designed to identify and monitor possible <mark>active phishing cases</mark>. Searches suspicious websites, take a screenshot, grab some details (like IP, hosting provider or certificate) and serves them in a Free Feed.
+          phishunt identifies and monitors <mark>active phishing infrastructure</mark>. It captures suspicious sites, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
 
-          This is a website built with <mark>Django</mark> / <mark>Bootstrap</mark> in frontend and <mark>Python</mark> / <mark>Bash</mark> in backend.
+          Built with <mark>Django</mark>, <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -100,31 +101,31 @@ content:
 
       - layout: left
         title: Okta
-        link: okta.com
+        link: https://www.okta.com/
         # link_text: boringcompany.com
         sub_title: Cyber Threat Researcher
         caption: Jun. 2024 - Present
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            I'm part of the Identity Threat Research Team at Okta. To be updated.
+            Part of Okta's <mark>Identity Threat Research</mark> team, researching identity-focused threats and attacker tactics, techniques and procedures.
 
       - layout: left
         title: Cloud Software Group
-        link: cloud.com
+        link: https://www.cloud.com/
         # link_text: boringcompany.com
         sub_title: Sr. Security Engineer
         caption: Oct. 2020 - Jun. 2024
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Worked at the Security Operations Center of Cloud Software Group. Our mission was to protect the company from all type of cyberthreats and improve our security posture providing a 24/7 service.
+            Worked in Cloud Software Group's global Security Operations Center, protecting the organization and strengthening its security posture through a 24/7 service.
 
             Key Responsibilities:
 
-            - <mark>Analyzing, containing and remediating</mark> all types of cyberthreats (malware infections, mail campaigns, Fraud/Abuse cases, Insider Threat/Data Loss Prevention…)
-            - <mark>Threat hunting</mark> and <mark>researching new malware/phishing campaigns</mark> providing specific mitigation and recommendation steps based on the investigation
-            - <mark>Support SIEM and Detection Engineers</mark> to fine tune alerts reducing volumetry, improving performance and detection rate
+            - <mark>Analyzed, contained and remediated</mark> malware, email campaigns, fraud and abuse, insider threats and data-loss incidents
+            - <mark>Hunted threats</mark> and researched malware and phishing campaigns, translating findings into concrete mitigations
+            - Partnered with SIEM and Detection Engineering to tune alerts, reduce noise and improve detection performance
 
             Technologies used in this role:
 
@@ -132,40 +133,40 @@ content:
 
       - layout: left
         title: Banco Santander
-        link: bancosantander.es
+        link: https://www.bancosantander.es/
         # link_text: boringcompany.com
         sub_title: Global SOC Security Analyst
         caption: Aug. 2018 - Oct. 2020
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Internal employee working at Banco Santander's Global SOC team providing 24/7 service and on-call rotation to all bank's entities worldwide.
+            Worked in Banco Santander's Global SOC, providing 24/7 monitoring and an on-call service to the bank's entities worldwide.
 
             Key Responsibilities:
 
-            - Perform <mark>monitoring, in-depth investigation and mitigation</mark> of security incidents
-            - Monitor website's traffic and <mark>critical bank SWIFT assets</mark>. Follow-up standard operation procedures, playbooks and on-demand analysis of security alerts such as malware, phishing, DDoS or brute force attacks
-            - <mark>Fraud prevention</mark>: manage phishings targeting employees, suspicious emails received by VIP directors, compromised credit cards, mule accounts, stolen corporate devices, data leaks, fake profiles in social media, repositories or apps in unofficial markets
+            - Performed <mark>in-depth investigation and mitigation</mark> of security incidents
+            - Monitored web traffic and <mark>critical SWIFT assets</mark>, investigating malware, phishing, DDoS and brute-force activity
+            - Supported <mark>fraud prevention</mark> across phishing, suspicious email, compromised cards, mule accounts, data leaks and impersonation
 
             Technologies used in this role:
 
             <mark>AWS (Cloud)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM QRadar (SOAR)</mark> • <mark>Cisco Ironport (Proxy)</mark> • <mark>McAfee (IPS)</mark>
       - layout: left
         title: Deloitte
-        link: deloitte.com
+        link: https://www.deloitte.com/
         # link_text: boringcompany.com
         sub_title: CyberSOC Security Analyst
         caption: Aug. 2017 - Aug. 2018
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-           Security Analyst at Deloitte's CyberSOC serving as Managed Security Service Provider (MSSP) for several national and international customers.
+            Security Analyst in Deloitte's CyberSOC, delivering managed security services for national and international clients.
 
             Key Responsibilities:
 
-            - Conduct <mark>initial analysis</mark> of alerts from SIEM tools to identify potential security threats
-            - <mark>Follow playbooks and procedures</mark> applying immediate containment and remediation measures to threats as needed
-            - <mark>Escalate potential incidents</mark> to other teams with context and detailed data for further investigation
+            - Conducted <mark>initial triage</mark> of SIEM alerts to identify potential threats
+            - Applied playbooks and immediate containment or remediation measures when required
+            - Escalated potential incidents with the context and evidence needed for further investigation
 
             Technologies used in this role:
 
@@ -181,7 +182,7 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my Master's Degree in Telecommunications Engineering at University of Seville, I gained a deep understanding of the principles and practices of <mark>modern telecommunications networks and systems</mark>. Throughout my studies, I was exposed to a wide range of topics including <mark>network architectures</mark>, <mark>signal processing</mark>, <mark>wireless communications</mark> and <mark>network security</mark>.
+          Advanced study of <mark>telecommunications networks and systems</mark>, including network architecture, signal processing, wireless communications and network security.
       - layout: left
         title: Universidad de Sevilla
         caption: 2011 - 2015
@@ -189,7 +190,7 @@ content:
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          I completed my Bachelor's Degree in Telecommunications Engineering at University of Seville, where I gained a comprehensive understanding of the fundamental principles and practices of <mark>telecommunications engineering</mark> as well as developed my <mark>computer science</mark> and <mark>programming skills</mark>.
+          Foundations in telecommunications engineering, computer science and <mark>software development</mark>.
 
   - title: Certifications and Courses
     layout: text
@@ -236,11 +237,10 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-sitemap
