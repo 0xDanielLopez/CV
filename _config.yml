@@ -258,3 +258,7 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Publish dotfile directories (security.txt)
+include:
+  - .well-known

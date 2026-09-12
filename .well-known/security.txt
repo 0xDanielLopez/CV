@@ -1,0 +1,5 @@
+# Report security issues with cv.daniel.tools to the contact below.
+Contact: https://x.com/0xDanielLopez
+Expires: 2027-05-04T00:00:00.000Z
+Preferred-Languages: en, es
+Canonical: https://cv.daniel.tools/.well-known/security.txt
