@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daniel López | Cyber Threat Researcher
+title: Daniel López - Cyber Threat Researcher
 image:
   path: /images/profile.jpg
   width: 400
