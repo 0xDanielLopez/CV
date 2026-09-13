@@ -67,8 +67,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           TweetFeed collects and organizes <mark>indicators of compromise</mark> posted on X. It focuses on URLs, domains, IP addresses and file hashes, and publishes them as an open feed.
 
-          Built with <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
-
       - layout: top-middle
         title: phishunt
         link: phishunt.io
@@ -76,8 +74,6 @@ content:
           Suspicious phishing sites, captured and enriched
         description: | # this will include new lines to allow paragraphs
           phishunt identifies and monitors <mark>suspicious phishing sites</mark>. It captures suspicious sites, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
-
-          Built with <mark>Django</mark>, <mark>JavaScript</mark>, <mark>Python</mark> and <mark>Bash</mark>.
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
