@@ -51,7 +51,7 @@ additional_links:
 # About Section
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, incident response, threat hunting and security operations. Since 2017, I have helped international organizations investigate, contain and remediate threats across diverse environments.
+  I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, incident response, threat hunting and security operations. Since 2017, I have helped international organizations in a wide range of sectors investigate, contain and remediate threats across diverse environments.
 
   I also build <mark>open security tools</mark>. I enjoy turning noisy data into practical intelligence with <mark>AI</mark>, cloud services and APIs.
 
