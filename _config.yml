@@ -87,6 +87,15 @@ content:
         description: | # this will include new lines to allow paragraphs
             Part of Okta's <mark>Identity Threat Research</mark> team, researching identity-focused threats and attacker tactics, techniques and procedures.
 
+            Selected publications on the Okta Threat Intelligence blog:
+
+            - [First on the scene of the (cyber)crime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime/){:target="_blank" rel="noopener"}
+            - [Tycoon 2FA phishing actors disperse, branch into new attacks](https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/){:target="_blank" rel="noopener"}
+            - [Jobseekers exploited in fake recruiter phishing campaigns](https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/){:target="_blank" rel="noopener"}
+            - [EvilProxy phishing campaign leverages convincing impersonations of enterprise applications](https://www.okta.com/blog/threat-intelligence/evil-proxy-phishing-campaign/){:target="_blank" rel="noopener"}
+            - [Attackers target hotelier accounts in malvertising and phishing campaign](https://www.okta.com/blog/threat-intelligence/attackers-target-hotelier-accounts-in-malvertising-and-phishing-/){:target="_blank" rel="noopener"}
+            - [How this ClickFix campaign leads to Redline Stealer](https://www.okta.com/blog/threat-intelligence/how-this-click-fix-campaign-leads-to-redline-stealer/){:target="_blank" rel="noopener"}
+
       - layout: left
         title: Cloud Software Group
         link: cloud.com
