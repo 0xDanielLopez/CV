@@ -194,7 +194,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Member of [CuratedIntel](https://x.com/CuratedIntel){:target="_blank" rel="noopener"} Trust Group
-      - Enjoy riding my bike or going to the gym (helps me a lot avoiding burnout)
+      - Enjoy lifting weights and riding my bike to avoid burnout
       - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5)
 
 
