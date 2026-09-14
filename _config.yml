@@ -167,8 +167,8 @@ content:
   - title: In the News
     layout: text
     content: | # - xxx [[xxx](xxx)]
-      - <span lang="ca">Telenotícies migdia</span> - Apr. 12, 2023 [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
-      - <span lang="ca">Telenotícies migdia</span> - Jun. 2, 2023 [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
+      - Apr. 12, 2023 - <span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
+      - Jun. 2, 2023 - <span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
       - <span lang="es">Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online'</span> [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/){:target="_blank" rel="noopener"}]
       - <span lang="es">Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS</span> [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/){:target="_blank" rel="noopener"}]
       - <span lang="es">Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así</span> [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi){:target="_blank" rel="noopener"}]
