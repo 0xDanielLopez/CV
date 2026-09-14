@@ -89,12 +89,12 @@ content:
 
             A few pieces of research published on the Okta Threat Intelligence blog:
 
-            - Aug. 23, 2026 - [First on the scene of the (cyber)crime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime/){:target="_blank" rel="noopener"}
-            - May 2, 2026 - [Tycoon 2FA phishing actors disperse, branch into new attacks](https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/){:target="_blank" rel="noopener"}
-            - Dec. 19, 2025 - [Jobseekers exploited in fake recruiter phishing campaigns](https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/){:target="_blank" rel="noopener"}
-            - Sep. 30, 2025 - [EvilProxy phishing campaign leverages convincing impersonations of enterprise applications](https://www.okta.com/blog/threat-intelligence/evil-proxy-phishing-campaign/){:target="_blank" rel="noopener"}
-            - Aug. 28, 2025 - [Attackers target hotelier accounts in malvertising and phishing campaign](https://www.okta.com/blog/threat-intelligence/attackers-target-hotelier-accounts-in-malvertising-and-phishing-/){:target="_blank" rel="noopener"}
-            - Jun. 19, 2025 - [How this ClickFix campaign leads to Redline Stealer](https://www.okta.com/blog/threat-intelligence/how-this-click-fix-campaign-leads-to-redline-stealer/){:target="_blank" rel="noopener"}
+            - <time datetime="2026-08-23" style="display:inline-block;min-width:7em">Aug. 23, 2026</time>[First on the scene of the (cyber)crime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime/){:target="_blank" rel="noopener"}
+            - <time datetime="2026-05-02" style="display:inline-block;min-width:7em">May 2, 2026</time>[Tycoon 2FA phishing actors disperse, branch into new attacks](https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/){:target="_blank" rel="noopener"}
+            - <time datetime="2025-12-19" style="display:inline-block;min-width:7em">Dec. 19, 2025</time>[Jobseekers exploited in fake recruiter phishing campaigns](https://www.okta.com/blog/threat-intelligence/jobseekers-exploited-in-fake-recruiter-phishing-campaigns/){:target="_blank" rel="noopener"}
+            - <time datetime="2025-09-30" style="display:inline-block;min-width:7em">Sep. 30, 2025</time>[EvilProxy phishing campaign leverages convincing impersonations of enterprise applications](https://www.okta.com/blog/threat-intelligence/evil-proxy-phishing-campaign/){:target="_blank" rel="noopener"}
+            - <time datetime="2025-08-28" style="display:inline-block;min-width:7em">Aug. 28, 2025</time>[Attackers target hotelier accounts in malvertising and phishing campaign](https://www.okta.com/blog/threat-intelligence/attackers-target-hotelier-accounts-in-malvertising-and-phishing-/){:target="_blank" rel="noopener"}
+            - <time datetime="2025-06-19" style="display:inline-block;min-width:7em">Jun. 19, 2025</time>[How this ClickFix campaign leads to Redline Stealer](https://www.okta.com/blog/threat-intelligence/how-this-click-fix-campaign-leads-to-redline-stealer/){:target="_blank" rel="noopener"}
 
       - layout: left
         title: Cloud Software Group
@@ -167,8 +167,8 @@ content:
   - title: In the News
     layout: text
     content: | # - xxx [[xxx](xxx)]
-      - Apr. 12, 2023 - <span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
-      - Jun. 2, 2023 - <span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
+      - <time datetime="2023-04-12" style="display:inline-block;min-width:7em">Apr. 12, 2023</time><span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
+      - <time datetime="2023-06-02" style="display:inline-block;min-width:7em">Jun. 2, 2023</time><span lang="ca">Telenotícies migdia</span> [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
       - <span lang="es">Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online'</span> [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/){:target="_blank" rel="noopener"}]
       - <span lang="es">Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS</span> [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/){:target="_blank" rel="noopener"}]
       - <span lang="es">Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así</span> [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi){:target="_blank" rel="noopener"}]
