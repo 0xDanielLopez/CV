@@ -51,7 +51,7 @@ additional_links:
 # About Section
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, incident response, threat hunting and security operations. Since 2017, I have helped international organizations in a wide range of sectors investigate, contain and remediate threats across diverse environments.
+  I am a <mark>Cyber Threat Researcher</mark> with a background spanning identity threat research, phishing investigations, incident response, threat hunting and security operations. Since 2017, I have helped international organizations in a wide range of sectors investigate, contain and remediate threats across diverse environments.
 
   I also build <mark>open security tools</mark>. I enjoy turning noisy data into practical intelligence with <mark>AI</mark>, cloud services and APIs.
 
@@ -73,7 +73,7 @@ content:
         quote: >
           Suspicious phishing sites, captured and enriched
         description: | # this will include new lines to allow paragraphs
-          phishunt identifies and monitors <mark>suspicious phishing sites</mark>. It captures suspicious sites, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
+          phishunt identifies and monitors <mark>suspicious phishing sites</mark>. It captures them, enriches them with hosting, certificate and network context, and publishes the results as an open feed.
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,15 +102,15 @@ content:
         sub_title: Sr. Security Engineer
         caption: Oct. 2020 - Jun. 2024
         description: | # this will include new lines to allow paragraphs
-            Worked in Cloud Software Group's global Security Operations Center, protecting the organization and strengthening its security posture through a 24/7 service.
+            Worked in Cloud Software Group's global Security Operations Center, handling 24/7 incident response, threat hunting and detection tuning.
 
             Key Responsibilities:
 
-            - <mark>Analyzed, contained and remediated</mark> malware, email campaigns, fraud and abuse, insider threats and data-loss incidents
+            - <mark>Analyzed, contained and remediated</mark> malware, malicious email campaigns, fraud and abuse, insider threats and data-loss incidents
             - <mark>Hunted threats</mark> and researched malware and phishing campaigns, translating findings into concrete mitigations
             - Partnered with SIEM and Detection Engineering to tune alerts, reduce noise and improve detection performance
 
-            <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint / Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
+            <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint / CrowdStrike Falcon (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
 
       - layout: left
         title: Banco Santander
@@ -126,7 +126,7 @@ content:
             - Monitored web traffic and <mark>critical SWIFT assets</mark>, investigating malware, phishing, DDoS and brute-force activity
             - Supported <mark>fraud prevention</mark> across phishing, suspicious email, compromised cards, mule accounts, data leaks and impersonation
 
-            <mark>AWS (Cloud)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM QRadar (SOAR)</mark> • <mark>Cisco Ironport (Proxy)</mark> • <mark>McAfee (IPS)</mark>
+            <mark>AWS (Cloud)</mark> • <mark>CrowdStrike Falcon (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM Resilient (SOAR)</mark> • <mark>Cisco IronPort (Proxy)</mark> • <mark>McAfee (IPS)</mark>
       - layout: left
         title: Deloitte
         link: deloitte.com
@@ -141,7 +141,7 @@ content:
             - Applied playbooks and immediate containment or remediation measures when required
             - Escalated potential incidents with the context and evidence needed for further investigation
 
-            <mark>Splunk (SIEM)</mark> • <mark>QRadar (SIEM)</mark> • <mark>ArcSight (SIEM)</mark> • <mark>FireEye (IPS)</mark> • <mark>McAfee (ePO)</mark>
+            <mark>Splunk (SIEM)</mark> • <mark>QRadar (SIEM)</mark> • <mark>ArcSight (SIEM)</mark> • <mark>FireEye (IPS)</mark> • <mark>McAfee ePO (Endpoint Management)</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -168,13 +168,13 @@ content:
       - MITRE ATT&CK Defender™ - SOC Assessments Certification Training [<a href="https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view" aria-label="MITRE ATT&amp;CK Defender SOC Assessments badge" target="_blank" rel="noopener">badge</a>]
       - Security Engineering on AWS
       - Architecting on AWS - Accelerator
-      - ITIL Foundation [<a href="https://bit.ly/2AHfQsI" aria-label="ITIL Foundation badge" target="_blank" rel="noopener">badge</a>]
+      - ITIL Foundation [<a href="https://candidate.peoplecert.org/MobileReports.aspx?id=40A47E5AE86A75086C381D0F40E216AD2C31A5C344A8873C7F3D5843673443DCE399BB6C76B8CEBDBB5705E39C877E246BFD9F10F353023FA05763FD40549AC6ACFBDBABC52460ADFD2C4CA7E0FB6FA9DC5F5B9055A8CC55698B72CFAE2B15CED560D13ACB5D0BC10EA5CFEFA6B7B17C10B94706DDCDFC4B0DF09971B9F14D1F" aria-label="ITIL Foundation badge" target="_blank" rel="noopener">badge</a>]
 
   - title: In the News
     layout: text
     content: | # - xxx [[xxx](xxx)]
-      - <span lang="ca">Telenotícies migdia</span> - 12/04/2023 [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
-      - <span lang="ca">Telenotícies migdia</span> - 02/06/2023 [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
+      - <span lang="ca">Telenotícies migdia</span> - Apr. 12, 2023 [[TV3 - midday TV news (~32:15)](https://www.3cat.cat/3cat/telenoticies-migdia-12042023/video/6214413/){:target="_blank" rel="noopener"}]
+      - <span lang="ca">Telenotícies migdia</span> - Jun. 2, 2023 [[TV3 - midday TV news (~27:48)](https://www.3cat.cat/3cat/telenoticies-migdia-02062023/video/6224081/){:target="_blank" rel="noopener"}]
       - <span lang="es">Se ofrece ciberataque gratis en Telegram: el nuevo anzuelo de los robos 'online'</span> [[elconfidencial.com](https://www.elconfidencial.com/tecnologia/2023-04-26/ciberataque-phishing-gratis-telegram-robos-online_3613307/){:target="_blank" rel="noopener"}]
       - <span lang="es">Siguen las campañas de phishing suplantando a la Agencia Tributaria, ahora también por SMS</span> [[ESET blog](https://web.archive.org/web/20240304091833/https://blogs.protegerse.com/2023/04/11/siguen-las-campanas-de-phishing-suplantando-a-la-agencia-tributaria-ahora-tambien-por-sms/){:target="_blank" rel="noopener"}]
       - <span lang="es">Están suplantando la web de Correos con kits vendidos en Telegram que usan sus bots para recopilar contraseñas. Y hay muchos kits así</span> [[genbeta.com](https://www.genbeta.com/seguridad/estan-suplantando-web-correos-kits-vendidos-telegram-que-usan-sus-bots-para-recopilar-contrasenas-hay-muchos-kits-asi){:target="_blank" rel="noopener"}]
@@ -183,7 +183,7 @@ content:
       - phishunt.io, <span lang="es">cazando phishings</span> [[derechodelared.com](https://derechodelared.com/phishunt-io-cazando-phishings/){:target="_blank" rel="noopener"}]
       - <span lang="es">Suplantan la identidad de tenistas como Rafa Nadal para incentivar la descarga de vídeos con malware</span> [[20minutos.es](https://www.20minutos.es/tecnologia/ciberseguridad/suplantan-la-identidad-de-tenistas-como-rafa-nadal-para-incentivar-la-descarga-de-videos-con-malware-5031428/){:target="_blank" rel="noopener"}]
       - <span lang="es">El ciberataque vía Youtube que ha suplantado a Nadal o a Djokovic durante Wimbledon</span> [[escudodigital.com](https://www.escudodigital.com/ciberseguridad/ciberataque-via-youtube-ha-suplantado-nadal-djokovic-durante-wimbledon_52375_102.html){:target="_blank" rel="noopener"}]      
-      - <span lang="es">Continuan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza</span> [[ESET blog](https://web.archive.org/web/20210303191721/https://blogs.protegerse.com/2021/03/03/continuan-los-sms-con-falsos-envios-de-fedex-como-identificarlos-y-eliminar-esta-amenaza/){:target="_blank" rel="noopener"}]
+      - <span lang="es">Continúan los SMS con falsos envíos de FedEx: cómo identificarlos y eliminar esta amenaza</span> [[ESET blog](https://web.archive.org/web/20210303191721/https://blogs.protegerse.com/2021/03/03/continuan-los-sms-con-falsos-envios-de-fedex-como-identificarlos-y-eliminar-esta-amenaza/){:target="_blank" rel="noopener"}]
       - <span lang="es">FedexBanker: El nuevo troyano bancario para Android que utiliza tus paquetes para robarte las credenciales</span> [[hispasec.com](https://web.archive.org/web/20230209084737/https://unaaldia.hispasec.com/2021/03/fedexbanker-el-nuevo-troyano-bancario-para-android.html){:target="_blank" rel="noopener"}]
       - <span lang="es">Los timos con criptomonedas que usan imágenes de famosos continúan muy activos</span> [[ESET blog](https://web.archive.org/web/20240621203432/https://blogs.protegerse.com/2023/05/15/los-timos-de-las-criptomonedas-que-usan-imagenes-de-famosos-continuan-muy-activos/){:target="_blank" rel="noopener"}]
       - How does a modded crypto wallet steal credentials of an user? [[@themalwarebug - medium.com](https://medium.com/@themalwarebug/how-does-a-modded-crypto-wallet-steal-credentials-of-an-user-29aaefc3f76e){:target="_blank" rel="noopener"}]
@@ -193,9 +193,9 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Member of [CuratedIntel](https://x.com/CuratedIntel){:target="_blank" rel="noopener"} Trust Group
+      - Member of [Curated Intelligence](https://x.com/CuratedIntel){:target="_blank" rel="noopener"} Trust Group
       - Enjoy lifting weights and riding my bike to avoid burnout
-      - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5)
+      - I'm [Enneagram Type 5](https://www.enneagraminstitute.com/type-5){:target="_blank" rel="noopener"}
 
 
 # Footer
