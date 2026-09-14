@@ -87,7 +87,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             Part of Okta's <mark>Identity Threat Research</mark> team, researching identity-focused threats and attacker tactics, techniques and procedures.
 
-            Selected research on the Okta Threat Intelligence blog:
+            A few pieces of research published on the Okta Threat Intelligence blog:
 
             - [First on the scene of the (cyber)crime](https://www.okta.com/blog/threat-intelligence/first-on-the-scene-of-the-cybercrime/){:target="_blank" rel="noopener"} - Aug. 23, 2026
             - [Tycoon 2FA phishing actors disperse, branch into new attacks](https://www.okta.com/blog/threat-intelligence/tycoon_2fa_phishing_actors_scatter/){:target="_blank" rel="noopener"} - May 2, 2026
