@@ -110,8 +110,6 @@ content:
             - <mark>Hunted threats</mark> and researched malware and phishing campaigns, translating findings into concrete mitigations
             - Partnered with SIEM and Detection Engineering to tune alerts, reduce noise and improve detection performance
 
-            Technologies used in this role:
-
             <mark>AWS / Azure (Cloud)</mark> • <mark>Microsoft Defender for Endpoint / Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>Cortex XSOAR (SOAR)</mark> 
 
       - layout: left
@@ -128,8 +126,6 @@ content:
             - Monitored web traffic and <mark>critical SWIFT assets</mark>, investigating malware, phishing, DDoS and brute-force activity
             - Supported <mark>fraud prevention</mark> across phishing, suspicious email, compromised cards, mule accounts, data leaks and impersonation
 
-            Technologies used in this role:
-
             <mark>AWS (Cloud)</mark> • <mark>Falcon CrowdStrike (EDR)</mark> • <mark>Splunk (SIEM)</mark> • <mark>IBM QRadar (SOAR)</mark> • <mark>Cisco Ironport (Proxy)</mark> • <mark>McAfee (IPS)</mark>
       - layout: left
         title: Deloitte
@@ -144,8 +140,6 @@ content:
             - Conducted <mark>initial triage</mark> of SIEM alerts to identify potential threats
             - Applied playbooks and immediate containment or remediation measures when required
             - Escalated potential incidents with the context and evidence needed for further investigation
-
-            Technologies used in this role:
 
             <mark>Splunk (SIEM)</mark> • <mark>QRadar (SIEM)</mark> • <mark>ArcSight (SIEM)</mark> • <mark>FireEye (IPS)</mark> • <mark>McAfee (ePO)</mark>
 
