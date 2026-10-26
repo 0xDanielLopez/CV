@@ -8,29 +8,38 @@
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  // Mark the section in view in the desktop nav.
+  // Mark the section in view in the desktop nav. Sections without a link (hero, news) clear the mark.
   var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
   if ('IntersectionObserver' in window && links.length) {
     var byId = {};
     links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
-        if (!e.isIntersecting || !byId[e.target.id]) return;
+        if (!e.isIntersecting) return;
         links.forEach(function (a) { a.removeAttribute('aria-current'); });
-        byId[e.target.id].setAttribute('aria-current', 'true');
+        if (byId[e.target.id]) byId[e.target.id].setAttribute('aria-current', 'true');
       });
     }, { rootMargin: '-45% 0px -50% 0px' });
-    Object.keys(byId).forEach(function (id) {
-      var el = document.getElementById(id);
-      if (el) io.observe(el);
-    });
+    document.querySelectorAll('main section[id]').forEach(function (el) { io.observe(el); });
   }
 
-  // Close the mobile menu after picking a section.
+  // Mobile menu: close after picking a section, on Escape, and when focus leaves it.
   var menu = document.querySelector('.nav-menu');
   if (menu) {
     menu.addEventListener('click', function (e) {
       if (e.target.closest('a')) menu.removeAttribute('open');
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.open) {
+        menu.removeAttribute('open');
+        menu.querySelector('summary').focus();
+      }
+    });
+    document.addEventListener('focusin', function (e) {
+      if (menu.open && !menu.contains(e.target)) menu.removeAttribute('open');
+    });
+    document.addEventListener('click', function (e) {
+      if (menu.open && !menu.contains(e.target)) menu.removeAttribute('open');
     });
   }
 
@@ -47,9 +56,27 @@
     });
     shots.forEach(function (img) { img.hidden = img.getAttribute('data-tool-shot') !== name; });
   }
+  var device = document.querySelector('.device');
   document.querySelectorAll('.tool-pick').forEach(function (btn) {
-    btn.addEventListener('click', function () { selectTool(btn.getAttribute('data-tool-target')); });
+    btn.addEventListener('click', function () {
+      selectTool(btn.getAttribute('data-tool-target'));
+      // Stacked layout: the preview is above the list, bring it into view.
+      if (device && getComputedStyle(device).position !== 'sticky') {
+        var r = device.getBoundingClientRect();
+        if (r.top < 0 || r.top > window.innerHeight) device.scrollIntoView({ block: 'start' });
+      }
+    });
   });
+
+  // Screenshots are lazy; load both once the tools section gets close, so switching is instant.
+  if (device && 'IntersectionObserver' in window) {
+    var shotIo = new IntersectionObserver(function (entries) {
+      if (!entries.some(function (e) { return e.isIntersecting; })) return;
+      shots.forEach(function (img) { img.loading = 'eager'; });
+      shotIo.disconnect();
+    }, { rootMargin: '800px 0px' });
+    shotIo.observe(device);
+  }
 
   // Durations ("2 yrs 5 mos"), counted like LinkedIn: both end months included.
   function months(ym) {

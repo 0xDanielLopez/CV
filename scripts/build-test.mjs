@@ -6,7 +6,7 @@ import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 const out = 'dist-test';
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out);
-for (const p of ['index.html', 'assets', 'images']) cpSync(p, `${out}/${p}`, { recursive: true });
+for (const p of ['index.html', '404.html', 'assets', 'images']) cpSync(p, `${out}/${p}`, { recursive: true });
 
 const html = readFileSync('index.html', 'utf8');
 const marker = '<meta name="viewport" content="width=device-width, initial-scale=1">';
