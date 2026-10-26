@@ -1,0 +1,13 @@
+{
+  "name": "cv",
+  "private": true,
+  "description": "cv.daniel.tools (GitHub Pages) + cv-test.daniel.tools preview (Cloudflare Worker, static assets only)",
+  "type": "module",
+  "scripts": {
+    "build:test": "node scripts/build-test.mjs",
+    "deploy:test": "node scripts/build-test.mjs && node node_modules/wrangler/bin/wrangler.js deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.151.1"
+  }
+}

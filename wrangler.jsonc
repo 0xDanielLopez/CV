@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Preview of the CV at cv-test.daniel.tools. Production (cv.daniel.tools) stays on GitHub Pages.
+  // Static assets only, no Worker script. `npm run deploy:test` builds dist-test/ first.
+  "name": "cv-test",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [{ "pattern": "cv-test.daniel.tools", "custom_domain": true }],
+  "assets": {
+    "directory": "./dist-test",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "observability": { "enabled": false }
+}
