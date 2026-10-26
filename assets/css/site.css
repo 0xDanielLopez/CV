@@ -163,6 +163,20 @@ strong { font-weight: 600; color: var(--ink); }
 }
 .career-list a:hover { color: var(--ink); }
 
+/* ---------- Logo tiles ---------- */
+.logo {
+  display: block; flex-shrink: 0; object-fit: cover;
+  border-radius: 8px; background: #fff;
+  box-shadow: 0 0 0 1px rgba(22, 24, 29, .1);
+}
+.career-list a { display: inline-flex; align-items: center; gap: .55rem; }
+.career-list .logo { width: 24px; height: 24px; border-radius: 6px; }
+.org { display: flex; align-items: center; gap: .75rem; }
+.org .logo { width: 34px; height: 34px; border-radius: 9px; }
+.org-sm .logo { width: 30px; height: 30px; border-radius: 8px; }
+.tool-pick { display: inline-flex; align-items: center; gap: .65rem; }
+.logo-tool { width: 30px; height: 30px; }
+
 /* ---------- Sections ---------- */
 .section { padding: clamp(4rem, 9vw, 7rem) 0; }
 .section-alt { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
