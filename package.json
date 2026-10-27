@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "build:test": "node scripts/build-test.mjs",
-    "deploy:test": "node scripts/build-test.mjs && node node_modules/wrangler/bin/wrangler.js deploy"
+    "deploy:test": "node scripts/build-test.mjs && node node_modules/wrangler/bin/wrangler.js deploy",
+    "pdf": "node scripts/build-pdf.mjs"
   },
   "devDependencies": {
+    "puppeteer-core": "24.43.1",
     "wrangler": "4.151.1"
   }
 }

@@ -23,6 +23,21 @@
     document.querySelectorAll('main section[id]').forEach(function (el) { io.observe(el); });
   }
 
+  // Theme toggle: theme.js already applied the saved or system theme before paint.
+  var root = document.documentElement;
+  var toggle = document.querySelector('.theme-toggle');
+  if (toggle) {
+    var sync = function () { toggle.setAttribute('aria-pressed', root.getAttribute('data-theme') === 'dark' ? 'true' : 'false'); };
+    sync();
+    toggle.hidden = false;
+    toggle.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      sync();
+    });
+  }
+
   // Mobile menu: close after picking a section, on Escape, and when focus leaves it.
   var menu = document.querySelector('.nav-menu');
   if (menu) {

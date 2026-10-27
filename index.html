@@ -24,12 +24,14 @@
   <meta name="twitter:title" content="Daniel López - Cyber Threat Researcher at Okta">
   <meta name="twitter:image" content="https://cv.daniel.tools/images/og-card.jpg">
   <meta name="twitter:image:alt" content="Daniel López, Cyber Threat Researcher at Okta. Identity threat research and open security tools.">
-  <meta name="theme-color" content="#f6f7f9">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1013" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="/images/favicon.ico" sizes="16x16 32x32 48x48 64x64">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="preload" href="/assets/fonts/archivo-latin-var.woff2?v=20261027" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/site.css?v=20261027e">
-  <script src="/assets/js/site.js?v=20261026c" defer></script>
+  <script src="/assets/js/theme.js?v=20261027"></script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=20261027g">
+  <script src="/assets/js/site.js?v=20261027a" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,6 +66,9 @@
     <symbol id="i-x" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></symbol>
     <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm-1 2 9 6 9-6"/></symbol>
     <symbol id="i-merge" viewBox="0 0 16 16"><path fill="currentColor" d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a6.6 6.6 0 0 0 10.7 10.7z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></symbol>
     <symbol id="i-out" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
     <symbol id="i-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m-6-6 6 6 6-6"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
@@ -85,6 +90,7 @@
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
+      <button type="button" class="theme-toggle" aria-label="Dark theme" aria-pressed="false" hidden><svg class="ic i-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="ic i-sun" aria-hidden="true"><use href="#i-sun"/></svg></button>
       <a class="btn btn-line btn-sm nav-cta" href="https://www.linkedin.com/in/0xDanielLopez" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
       <details class="nav-menu">
         <summary><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg><span class="sr-only">Sections</span></summary>
@@ -106,8 +112,8 @@
       <div class="hero-main">
         <p class="eyebrow">Cyber Threat Researcher at Okta</p>
         <h1 class="hero-name" id="hero-title">Daniel López</h1>
-        <p class="hero-sub"><span class="nowrap">Identity threat research</span> <span class="sep" aria-hidden="true">/</span> <span class="nowrap">Open security tools</span></p>
-        <p class="hero-lead">I research identity threats and phishing campaigns, and I build open threat intelligence tools.</p>
+        <p class="hero-sub"><span class="nowrap">Threat intelligence</span> <span class="sep" aria-hidden="true">/</span> <span class="nowrap">Phishing</span> <span class="sep" aria-hidden="true">/</span> <span class="nowrap">Identity attacks</span></p>
+        <p class="hero-lead">I hunt phishing and identity attacks at Okta, and I build open threat feeds now included in MISP, YETI and OpenCTI.</p>
         <ul class="print-contact" role="list">
           <li><a href="mailto:daniel.lopez.cv@gmail.com">daniel.lopez.cv@gmail.com</a></li>
           <li><a href="https://www.linkedin.com/in/0xDanielLopez">linkedin.com/in/0xDanielLopez</a></li>
@@ -118,6 +124,7 @@
           <a class="btn btn-ink" href="mailto:daniel.lopez.cv@gmail.com"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>Email me</a>
           <a class="btn btn-line" href="https://www.linkedin.com/in/0xDanielLopez" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
           <a class="btn btn-line" href="https://github.com/0xDanielLopez" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+          <a class="btn btn-line btn-dl" href="/daniel-lopez-cv.pdf" download><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg>Download CV<span class="sr-only"> (PDF)</span></a>
         </div>
       </div>
       <dl class="facts">
@@ -178,6 +185,7 @@
               <p class="role-dur" data-start="2020-10" data-end="2024-06">3 yrs 9 mos</p>
             </div>
             <div class="role-main">
+              <p class="pill">Citrix</p>
               <h3 class="org"><img class="logo" src="/images/logos/csg.png" alt="" width="34" height="34" loading="lazy"><span>Cloud Software Group</span></h3>
               <p class="role-title">Sr. Security Engineer</p>
               <p class="role-meta"><a class="link" href="https://www.cloud.com/" target="_blank" rel="noopener">cloud.com<span class="sr-only"> (opens in a new tab)</span></a></p>
@@ -418,7 +426,7 @@
                 <p class="oss-repo">OpenCTI-Platform/connectors</p>
               </div>
             </div>
-            <p class="oss-desc">Corrected the TweetFeed connector documentation, which said that the feed stopped in July 2023. The feed still publishes new indicators every day.</p>
+            <p class="oss-desc">There is a TweetFeed connector for OpenCTI. I updated its documentation, which said that the feed stopped in July 2023.</p>
             <div class="oss-foot">
               <p class="oss-for">For <span><img class="logo" src="/images/logos/tweetfeed.png" alt="TweetFeed" width="24" height="24" loading="lazy"></span></p>
               <p class="oss-prs">
@@ -464,22 +472,22 @@
         <div class="card certs" id="certifications">
           <h3 class="card-title">Certifications and courses</h3>
           <ul class="cert-list" role="list">
-            <li><span class="cert-name">GIAC Security Essentials (GSEC) / SANS SEC401</span><a class="link link-icon" href="https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1" aria-label="GIAC Security Essentials (GSEC) badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - Fundamentals Badge Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-56c26349-5548-4619-a38c-0df53b14d9e2/view" aria-label="MITRE ATT&amp;CK Defender Fundamentals badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - Cyber Threat Intelligence Certification Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view" aria-label="MITRE ATT&amp;CK Defender Cyber Threat Intelligence badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - SOC Assessments Certification Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view" aria-label="MITRE ATT&amp;CK Defender SOC Assessments badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">CrowdStrike FHT 201: Intermediate Falcon Platform for Responders</span></li>
-            <li><span class="cert-name">CrowdStrike FHT 202: Intermediate Falcon Platform for Hunters</span></li>
-            <li><span class="cert-name">Splunk 7.x Fundamentals</span></li>
-            <li><span class="cert-name">Claude Code in Action (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/uj6jfg4m79nv" aria-label="Claude Code in Action badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">Claude Code 101 (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/2xprbv8md67w" aria-label="Claude Code 101 badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">Introduction to agent skills (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/6z3ad2tuxvw8" aria-label="Introduction to agent skills badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
-            <li><span class="cert-name">Security Engineering on AWS</span></li>
-            <li><span class="cert-name">Architecting on AWS - Accelerator</span></li>
-            <li><span class="cert-name">AWS Technical Essentials</span></li>
-            <li><span class="cert-name">Penetration Testing and Ethical Hacking (Cybrary)</span></li>
-            <li><span class="cert-name">Python for Offensive PenTest (Udemy)</span></li>
-            <li><span class="cert-name">ITIL Foundation</span><a class="link link-icon" href="https://candidate.peoplecert.org/MobileReports.aspx?id=40A47E5AE86A75086C381D0F40E216AD2C31A5C344A8873C7F3D5843673443DCE399BB6C76B8CEBDBB5705E39C877E246BFD9F10F353023FA05763FD40549AC6ACFBDBABC52460ADFD2C4CA7E0FB6FA9DC5F5B9055A8CC55698B72CFAE2B15CED560D13ACB5D0BC10EA5CFEFA6B7B17C10B94706DDCDFC4B0DF09971B9F14D1F" aria-label="ITIL Foundation badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/giac.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">GIAC Security Essentials (GSEC) / SANS SEC401</span><a class="link link-icon" href="https://www.credly.com/badges/3045d920-1095-46ce-9c95-e136e706bcf1" aria-label="GIAC Security Essentials (GSEC) badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/mitre.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - Fundamentals Badge Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-56c26349-5548-4619-a38c-0df53b14d9e2/view" aria-label="MITRE ATT&amp;CK Defender Fundamentals badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/mitre.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - Cyber Threat Intelligence Certification Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-254c8437-e3d2-4b26-9751-616c4cb373d2/view" aria-label="MITRE ATT&amp;CK Defender Cyber Threat Intelligence badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/mitre.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">MITRE ATT<span class="amp">&amp;</span>CK Defender™ - SOC Assessments Certification Training</span><a class="link link-icon" href="https://app.cybrary.it/courses/api/certificate/CC-191e6bfa-82eb-4518-9ea2-dead674d886a/view" aria-label="MITRE ATT&amp;CK Defender SOC Assessments badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/crowdstrike.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">CrowdStrike FHT 201: Intermediate Falcon Platform for Responders</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/crowdstrike.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">CrowdStrike FHT 202: Intermediate Falcon Platform for Hunters</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/splunk.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Splunk 7.x Fundamentals</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/anthropic.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Claude Code in Action (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/uj6jfg4m79nv" aria-label="Claude Code in Action badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/anthropic.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Claude Code 101 (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/2xprbv8md67w" aria-label="Claude Code 101 badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/anthropic.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Introduction to agent skills (Anthropic)</span><a class="link link-icon" href="https://verify.skilljar.com/c/6z3ad2tuxvw8" aria-label="Introduction to agent skills badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
+            <li><img class="logo cert-logo" src="/images/certs/aws.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Security Engineering on AWS</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/aws.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Architecting on AWS - Accelerator</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/aws.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">AWS Technical Essentials</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/cybrary.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Penetration Testing and Ethical Hacking (Cybrary)</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/udemy.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">Python for Offensive PenTest (Udemy)</span></li>
+            <li><img class="logo cert-logo" src="/images/certs/peoplecert.png" alt="" width="24" height="24" loading="lazy"><span class="cert-name">ITIL Foundation</span><a class="link link-icon" href="https://candidate.peoplecert.org/MobileReports.aspx?id=40A47E5AE86A75086C381D0F40E216AD2C31A5C344A8873C7F3D5843673443DCE399BB6C76B8CEBDBB5705E39C877E246BFD9F10F353023FA05763FD40549AC6ACFBDBABC52460ADFD2C4CA7E0FB6FA9DC5F5B9055A8CC55698B72CFAE2B15CED560D13ACB5D0BC10EA5CFEFA6B7B17C10B94706DDCDFC4B0DF09971B9F14D1F" aria-label="ITIL Foundation badge (opens in a new tab)" target="_blank" rel="noopener">Badge<svg class="ic" aria-hidden="true"><use href="#i-out"/></svg></a></li>
           </ul>
         </div>
       </div>
