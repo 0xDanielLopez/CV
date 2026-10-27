@@ -367,6 +367,7 @@ strong { font-weight: 600; color: var(--ink); }
 }
 .card-title { font-size: 1.15rem; font-weight: 700; font-stretch: 112%; margin-bottom: 1rem; }
 .certs { margin-top: clamp(3rem, 6vw, 4rem); }
+.cert-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5rem; }
 .cert-list li {
   display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
   padding: .8rem 0; border-top: 1px solid var(--line);
@@ -441,6 +442,7 @@ strong { font-weight: 600; color: var(--ink); }
   .tools { grid-template-columns: 1fr; }
   .device { position: static; }
   .tv-feature { grid-template-columns: 1fr; }
+  .cert-list { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .section-head { flex-direction: column; align-items: flex-start; }
 }
@@ -544,6 +546,8 @@ strong { font-weight: 600; color: var(--ink); }
   .card { padding: .8rem 1.1rem; }
   .certs { margin-top: 1.3rem; }
   .cert-list li { padding: .4rem 0; }
+  .cert-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.8rem; }
+  .cert-list li { flex-direction: row; }
   .news { gap: 0 1.8rem; }
   .news li { padding: .5rem 0; }
   .footer { padding: .8rem 0; }
