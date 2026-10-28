@@ -474,6 +474,9 @@ strong { font-weight: 600; color: var(--ink); }
 .tv-eyebrow .logo { width: 28px; height: 28px; border-radius: 7px; }
 .tv-title { margin-top: .9rem; font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 800; font-stretch: 120%; letter-spacing: -.03em; line-height: 1.1; }
 .tv-text { margin-top: .7rem; color: var(--ink-2); }
+.tv-notes { display: grid; gap: .8rem; margin-top: 1.1rem; }
+.tv-notes dt { font-size: 13.5px; font-weight: 600; }
+.tv-notes dd { margin: .15rem 0 0; font-size: 15px; line-height: 1.5; color: var(--ink-2); }
 .tv-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
 .news { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2.5rem; }
 .news li {
@@ -483,6 +486,7 @@ strong { font-weight: 600; color: var(--ink); }
 .news-logo { width: 28px; height: 28px; border-radius: 7px; margin-top: .1rem; }
 .news-body { display: flex; flex-direction: column; gap: .3rem; min-width: 0; }
 .news-title { font-weight: 500; line-height: 1.45; }
+.news-desc { font-size: 14.5px; line-height: 1.5; color: var(--ink-2); }
 .news-src { font-size: 14px; color: var(--muted); align-self: flex-start; }
 
 /* ---------- Contact ---------- */
@@ -633,6 +637,9 @@ strong { font-weight: 600; color: var(--ink); }
   .cert-list li { flex-direction: row; }
   .news { gap: 0 1.8rem; }
   .news li { padding: .5rem 0; }
+  .news-desc, .tv-notes dd { font-size: 11.5px; }
+  .tv-notes { gap: .4rem; margin-top: .5rem; }
+  .tv-notes dt { font-size: 11.5px; }
   :root { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .role-when::before, .bullets li::before { background: var(--muted); }
   .role-when::after { border-color: var(--ink); }
