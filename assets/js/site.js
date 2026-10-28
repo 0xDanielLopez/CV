@@ -62,6 +62,26 @@
   var tools = Array.prototype.slice.call(document.querySelectorAll('.tool'));
   var shots = Array.prototype.slice.call(document.querySelectorAll('[data-tool-shot]'));
   var label = document.querySelector('[data-preview-name]');
+  // A short video tour of the selected tool plays on hover (or while in view on touch screens).
+  var vids = Array.prototype.slice.call(document.querySelectorAll('[data-tool-video]'));
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var current = 'tweetfeed', touring = false;
+  function tour() {
+    vids.forEach(function (v) {
+      if (touring && !calm && v.getAttribute('data-tool-video') === current) {
+        if (!v.paused) return;
+        v.currentTime = 0;
+        var p = v.play();
+        var shown = function () {
+          if (touring && v.getAttribute('data-tool-video') === current) v.classList.add('is-playing'); else v.pause();
+        };
+        if (p && p.then) p.then(shown).catch(function () {}); else shown();
+      } else {
+        v.classList.remove('is-playing');
+        v.pause();
+      }
+    });
+  }
   function selectTool(name) {
     tools.forEach(function (t) {
       var on = t.getAttribute('data-tool') === name;
@@ -70,6 +90,8 @@
       if (on && label) label.textContent = t.querySelector('.tool-pick').textContent;
     });
     shots.forEach(function (img) { img.hidden = img.getAttribute('data-tool-shot') !== name; });
+    current = name;
+    tour();
   }
   var device = document.querySelector('.device');
   document.querySelectorAll('.tool-pick').forEach(function (btn) {
@@ -82,6 +104,18 @@
       }
     });
   });
+
+  var laptop = document.querySelector('.laptop');
+  if (laptop && vids.length) {
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      laptop.addEventListener('mouseenter', function () { touring = true; tour(); });
+      laptop.addEventListener('mouseleave', function () { touring = false; tour(); });
+    } else if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { touring = e.intersectionRatio >= 0.6; tour(); });
+      }, { threshold: [0, 0.6] }).observe(laptop);
+    }
+  }
 
   // Screenshots are lazy; load both once the tools section gets close, so switching is instant.
   if (device && 'IntersectionObserver' in window) {
