@@ -93,6 +93,53 @@
     shotIo.observe(device);
   }
 
+  // TV: a muted clip of the interview plays on hover (or while in view on touch screens),
+  // and the two appearances switch like channels. Without JS the photo stays.
+  var tv = document.querySelector('[data-tv]');
+  if (tv) {
+    var video = tv.querySelector('video');
+    var poster = tv.querySelector('.tvset-poster');
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var hover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    var inside = false;
+    var play = function () {
+      if (still) return;
+      var p = video.play();
+      if (p && p.then) p.then(function () { tv.classList.add('is-playing'); }).catch(function () {});
+      else tv.classList.add('is-playing');
+    };
+    var stop = function () { tv.classList.remove('is-playing'); video.pause(); };
+    if (hover) {
+      tv.addEventListener('mouseenter', function () { inside = true; play(); });
+      tv.addEventListener('mouseleave', function () { inside = false; stop(); });
+    } else if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { inside = e.intersectionRatio >= 0.6; if (inside) play(); else stop(); });
+      }, { threshold: [0, 0.6] }).observe(tv);
+    }
+    var channels = document.querySelector('.tv-channels');
+    if (channels) {
+      channels.hidden = false;
+      channels.querySelectorAll('button').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (btn.getAttribute('aria-pressed') === 'true') return;
+          channels.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
+          var tune = function () {
+            tv.classList.remove('is-static');
+            poster.src = btn.getAttribute('data-poster');
+            poster.alt = btn.getAttribute('data-alt');
+            video.src = btn.getAttribute('data-video');
+            if (inside) play();
+          };
+          stop();
+          if (still) { tune(); return; }
+          tv.classList.add('is-static');
+          setTimeout(tune, 320);
+        });
+      });
+    }
+  }
+
   // Durations ("2 yrs 5 mos"), counted like LinkedIn: both end months included.
   function months(ym) {
     var p = ym.split('-');

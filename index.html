@@ -30,8 +30,8 @@
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="preload" href="/assets/fonts/archivo-latin-var.woff2?v=20261027" as="font" type="font/woff2" crossorigin>
   <script src="/assets/js/theme.js?v=20261027"></script>
-  <link rel="stylesheet" href="/assets/css/site.css?v=20261028b">
-  <script src="/assets/js/site.js?v=20261027a" defer></script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=20261028c">
+  <script src="/assets/js/site.js?v=20261028a" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -502,10 +502,24 @@
         </div>
 
         <div class="tv-feature">
-          <figure class="tv">
-            <img src="/images/news/tv3.webp" alt="Daniel López speaking on TV3's midday news" width="1280" height="720" loading="lazy" decoding="async">
-            <figcaption class="tv-badge">On TV3</figcaption>
-          </figure>
+          <div class="tv">
+            <figure class="tvset" data-tv>
+              <div class="tvset-screen">
+                <div class="tvset-display">
+                  <img class="tvset-poster" src="/images/news/tv3.webp" alt="Daniel López speaking on TV3's midday news, June 2023" width="1280" height="720" loading="lazy" decoding="async">
+                  <video class="tvset-video" src="/images/news/tv3-jun.mp4" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+                  <span class="tvset-noise" aria-hidden="true"></span>
+                  <span class="tv-badge">On TV3</span>
+                </div>
+                <span class="tvset-led" aria-hidden="true"></span>
+              </div>
+              <div class="tvset-stand" aria-hidden="true"></div>
+            </figure>
+            <p class="tv-channels" role="group" aria-label="TV appearance" hidden>
+              <button type="button" aria-pressed="false" data-poster="/images/news/tv3-apr.webp" data-video="/images/news/tv3-apr.mp4" data-alt="Daniel López speaking on TV3's midday news, April 2023">Apr. 12, 2023</button>
+              <button type="button" aria-pressed="true" data-poster="/images/news/tv3.webp" data-video="/images/news/tv3-jun.mp4" data-alt="Daniel López speaking on TV3's midday news, June 2023">Jun. 2, 2023</button>
+            </p>
+          </div>
           <div>
             <p class="tv-eyebrow"><img class="logo" src="/images/news/3cat.png" alt="" width="28" height="28" loading="lazy">TV3 midday news</p>
             <h3 class="tv-title" lang="ca">Telenotícies migdia</h3>

@@ -413,12 +413,50 @@ strong { font-weight: 600; color: var(--ink); }
   display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem);
   align-items: center; margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
 }
-.tv { position: relative; margin: 0; }
-.tv img {
-  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
-  border-radius: var(--radius); background: var(--soft);
-  box-shadow: 0 0 0 1px rgba(22, 24, 29, .08), 0 28px 50px -30px rgba(22, 24, 29, .5);
+.tv { position: relative; }
+/* TV set, same family as the laptop: dark bezel, light foot */
+.tvset { margin: 0; }
+.tvset-screen {
+  position: relative; padding: 2.4% 2.4% 4.6%;
+  background: #1b1d22; border-radius: 14px;
+  box-shadow: 0 0 0 1px #2c2f36 inset, 0 30px 60px -30px rgba(22, 24, 29, .45);
 }
+.tvset-display { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 3px; background: #050607; }
+.tvset-display img, .tvset-display video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.tvset-video { opacity: 0; transition: opacity .4s ease; }
+.tvset.is-playing .tvset-video { opacity: 1; }
+.tvset-noise {
+  position: absolute; inset: 0; opacity: 0; pointer-events: none;
+  background: url("/images/news/tv-noise.png") 0 0 / 160px;
+}
+.tvset.is-static .tvset-noise { opacity: .9; animation: tv-noise .3s steps(6) infinite; }
+@keyframes tv-noise {
+  0% { background-position: 0 0; } 20% { background-position: -60px 40px; } 40% { background-position: 30px -70px; }
+  60% { background-position: -90px -20px; } 80% { background-position: 50px 80px; } 100% { background-position: 0 0; }
+}
+.tvset-led {
+  position: absolute; right: 3.2%; bottom: 1.7%; width: 6px; height: 6px; border-radius: 50%;
+  background: #d1342f; box-shadow: 0 0 6px rgba(209, 52, 47, .8);
+}
+.tvset-stand { position: relative; height: 26px; }
+.tvset-stand::before {
+  content: ""; position: absolute; left: 50%; top: 0; transform: translateX(-50%);
+  width: 9%; height: 18px; background: linear-gradient(#2a2d34, #1b1d22);
+}
+.tvset-stand::after {
+  content: ""; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);
+  width: 36%; height: 9px; border-radius: 6px 6px 3px 3px; background: linear-gradient(#d9dce2, #b9bec7);
+}
+.tv-channels { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin-top: 1rem; }
+.tv-channels[hidden] { display: none; }
+.tv-channels button {
+  padding: .4rem .9rem; border-radius: 999px; border: 1px solid var(--line-2);
+  background: var(--surface); color: var(--ink); font: inherit; font-size: 13.5px; font-weight: 500; cursor: pointer;
+}
+.tv-channels button:hover { border-color: var(--ink); }
+.tv-channels button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.tvset.is-playing .tv-badge::before { animation: tv-live 1.2s ease-in-out infinite; }
+@keyframes tv-live { 50% { opacity: .25; } }
 .tv-badge {
   position: absolute; right: 1rem; top: 1rem; display: inline-flex; align-items: center; gap: .45rem;
   padding: .3rem .75rem; border-radius: 999px; background: rgba(255, 255, 255, .94);
@@ -509,7 +547,7 @@ strong { font-weight: 600; color: var(--ink); }
 @media (pointer: coarse) {
   .nav-menu summary { width: 44px; height: 44px; }
   .brand { min-height: 44px; }
-  .btn-sm { min-height: 44px; }
+  .btn-sm, .tv-channels button { min-height: 44px; }
   /* Bigger hit area, same layout: padding grows the target, the negative margin gives the space back. */
   .career-list a, .tool-links a, .cert-list .link, .news-src, .footer nav a {
     padding-block: .6rem; margin-block: -.6rem;
@@ -528,6 +566,7 @@ strong { font-weight: 600; color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
+  .tvset.is-static .tvset-noise, .tvset.is-playing .tv-badge::before { animation: none; }
 }
 
 /* ---------- Print ---------- */
