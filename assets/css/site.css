@@ -311,6 +311,8 @@ strong { font-weight: 600; color: var(--ink); }
 /* Tour of the selected tool, played on hover (or while in view on touch screens) */
 .laptop-display video { opacity: 0; transition: opacity .4s ease; }
 .laptop-display video.is-playing { opacity: 1; }
+/* The tour draws its own cursor: hide the real one so there are not two */
+.laptop:has(video.is-playing) { cursor: none; }
 .laptop-base {
   position: relative; width: calc(100% + 24px); margin-left: -12px; height: 14px;
   background: linear-gradient(#d9dce2, #b9bec7);
