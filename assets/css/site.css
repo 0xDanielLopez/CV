@@ -8,6 +8,16 @@
   font-display: swap;
   src: url("/assets/fonts/archivo-latin-var.woff2?v=20261027") format("woff2");
 }
+/* Static instances for print: Chrome embeds the variable font as Type 3 in PDFs. Only fetched when printing. */
+@font-face { font-family: "Archivo Print"; font-weight: 400; font-stretch: 100%; src: url("/assets/fonts/print/archivo-400-100.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 500; font-stretch: 100%; src: url("/assets/fonts/print/archivo-500-100.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 600; font-stretch: 100%; src: url("/assets/fonts/print/archivo-600-100.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 700; font-stretch: 100%; src: url("/assets/fonts/print/archivo-700-100.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 600; font-stretch: 110%; src: url("/assets/fonts/print/archivo-600-110.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 700; font-stretch: 112%; src: url("/assets/fonts/print/archivo-700-112.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 800; font-stretch: 118%; src: url("/assets/fonts/print/archivo-800-118.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 800; font-stretch: 120%; src: url("/assets/fonts/print/archivo-800-120.woff2?v=20261028") format("woff2"); }
+@font-face { font-family: "Archivo Print"; font-weight: 800; font-stretch: 125%; src: url("/assets/fonts/print/archivo-800-125.woff2?v=20261028") format("woff2"); }
 
 /* ---------- Tokens ---------- */
 :root {
@@ -532,7 +542,9 @@ strong { font-weight: 600; color: var(--ink); }
   .nav, .skip-link, .device, .hero-cta, .section-head .btn, .footer nav { display: none !important; }
   .hero { padding: 0 0 1.2rem; grid-template-columns: 1fr; gap: 1.2rem; }
   .section { padding: 1.3rem 0; }
-  .role, .post, .card, .oss-card, .news li, .tool, .career, .facts, .contact-grid, .tv-feature { break-inside: avoid; }
+  .post, .card, .oss-card, .news li, .tool, .facts, .contact-grid, .tv-feature, .bullets li, .role-desc { break-inside: avoid; }
+  .section-head { display: block; }
+  .org, .role-title, .role-meta { break-after: avoid; }
   .h2, .contact-h, .card-title, .tool-name, .section-head { break-after: avoid; }
   .tools { grid-template-columns: 1fr; }
   .tool.is-active { background: none; }
@@ -541,13 +553,12 @@ strong { font-weight: 600; color: var(--ink); }
   .print-contact { display: flex; flex-wrap: wrap; gap: .2rem 1.2rem; margin-top: .7rem; font-size: 12.5px; font-weight: 600; }
   .contact-grid > div:first-child { display: none; }
   .contact-grid { grid-template-columns: 1fr; }
-  body { font-size: 12.5px; line-height: 1.5; }
+  body { font-family: "Archivo Print", var(--sans); font-size: 12.5px; line-height: 1.5; }
   .hero-name { font-size: 2.8rem; }
   .hero-sub { margin-top: .7rem; font-size: 1rem; }
   .hero-lead { margin-top: .6rem; font-size: 1.1rem; max-width: none; }
   .facts { box-shadow: none; padding: .2rem 1rem; }
   .facts > div { padding: .45rem 0; }
-  .career { padding-top: .9rem; }
   .section-head { margin-bottom: .9rem; }
   .h2 { font-size: 1.8rem; }
   .section-intro { margin-top: .5rem; }
@@ -559,13 +570,12 @@ strong { font-weight: 600; color: var(--ink); }
   .role-desc { margin-top: .6rem; }
   .role-side { padding-top: .7rem; }
   .bullets li + li { margin-top: .35rem; }
-  .tool { padding: .8rem 0 .8rem 1rem; }
+  .tool { padding: .8rem 0; }
   .posts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; }
   .post-media, .tv { display: none; }
   .post-body { padding: .7rem .8rem; }
   .tv-feature { display: block; margin-bottom: .6rem; }
   .tv-title { margin-top: .4rem; font-size: 1.35rem; }
-  .tv-links .btn { display: none; }
   .post-desc { font-size: 12px; margin-top: .35rem; }
   .oss { gap: .6rem; }
   .oss-card { padding: .7rem .9rem; gap: .5rem; }
@@ -577,11 +587,26 @@ strong { font-weight: 600; color: var(--ink); }
   .cert-list li { flex-direction: row; }
   .news { gap: 0 1.8rem; }
   .news li { padding: .5rem 0; }
-  .footer { padding: .8rem 0; }
   :root { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .role-when::before, .bullets li::before { background: var(--muted); }
   .role-when::after { border-color: var(--ink); }
   .link { text-decoration-color: var(--ink-2); }
+  /* The career strip is web navigation; without it the Okta role fits on page 1 */
+  .career, .footer { display: none; }
+  .role-main, .section-head, .timeline-compact { break-inside: avoid; }
+  /* One left edge for every block */
+  .shell { padding-inline: 0; }
+  .tool-list .tool:last-child { border-bottom: 0; }
+  /* Text stream in reading order (copy/paste, parsers): no positioned overlays */
+  .section, .certs, .role-main, .role-side { position: relative; }
+  .tool, .post { position: static; overflow: visible; }
+  .tool::before, .tool-pick::after, .post-title a::after { display: none; }
+  .tool-kind, .tool-desc, .tool-stat, .tool-links, .cert-list .link, .news-src { font-size: 12.5px; }
+  .post-title { font-size: 1rem; }
+  /* TV3 watch links as plain links */
+  .tv-links { gap: .2rem 1.4rem; margin-top: .5rem; }
+  .tv-links .btn { display: inline-flex; gap: .3rem; padding: 0; border: 0; border-radius: 0; background: none; font-size: 12.5px; font-weight: 400; color: var(--ink); text-decoration: underline; text-decoration-color: var(--ink-2); text-underline-offset: 4px; }
+  .tv-links .btn .ic { font-size: .85em; color: var(--muted); }
 }
 
 /* ---------- Theme toggle ---------- */
