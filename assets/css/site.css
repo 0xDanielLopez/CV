@@ -412,7 +412,7 @@ strong { font-weight: 600; color: var(--ink); }
 .tv-badge {
   position: absolute; right: 1rem; top: 1rem; display: inline-flex; align-items: center; gap: .45rem;
   padding: .3rem .75rem; border-radius: 999px; background: rgba(255, 255, 255, .94);
-  font-size: 12.5px; font-weight: 600; color: var(--ink);
+  font-size: 12.5px; font-weight: 600; color: #16181d;
 }
 .tv-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #d1342f; }
 .tv-eyebrow { display: flex; align-items: center; gap: .6rem; font-size: 14px; font-weight: 500; color: var(--ink-2); }
